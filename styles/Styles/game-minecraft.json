@@ -1,0 +1,7 @@
+{
+    "name": "game-minecraft",
+    "description": "\u6e38\u620f\u2022\u6211\u7684\u4e16\u754c",
+    "preview": "game-minecraft.jpg",
+    "prompt": "Minecraft style {prompt}, blocky, pixelated, vibrant colors, recognizable characters and objects, game assets",
+    "negative": "smooth, realistic, detailed, photorealistic, noise, blurry, deformed"
+}

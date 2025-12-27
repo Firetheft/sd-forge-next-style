@@ -1,0 +1,7 @@
+{
+    "name": "ads-automotive",
+    "description": "\u5e7f\u544a\u2022\u6c7d\u8f66",
+    "preview": "ads-automotive.jpg",
+    "prompt": "automotive advertisement style {prompt}, sleek, dynamic, professional, commercial, vehicle-focused, high-resolution, highly detailed",
+    "negative": "noisy, blurry, unattractive, sloppy, unprofessional"
+}

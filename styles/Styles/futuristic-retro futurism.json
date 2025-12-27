@@ -1,0 +1,7 @@
+{
+    "name": "futuristic-retro futurism",
+    "description": "\u672a\u6765\u6d3e\u2022\u590d\u53e4\u672a\u6765\u4e3b\u4e49",
+    "preview": "futuristic-retro futurism.jpg",
+    "prompt": "retro-futuristic {prompt}, vintage sci-fi, 50s and 60s style, atomic age, vibrant, highly detailed",
+    "negative": "contemporary, realistic, rustic, primitive"
+}

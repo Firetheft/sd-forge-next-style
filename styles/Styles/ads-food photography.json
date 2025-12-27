@@ -1,0 +1,7 @@
+{
+    "name": "ads-food photography",
+    "description": "\u5e7f\u544a\u2022\u98df\u54c1\u6444\u5f71",
+    "preview": "ads-food photography.jpg",
+    "prompt": "food photography style {prompt}, appetizing, professional, culinary, high-resolution, commercial, highly detailed",
+    "negative": "unappetizing, sloppy, unprofessional, noisy, blurry"
+}

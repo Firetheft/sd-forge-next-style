@@ -1,0 +1,7 @@
+{
+    "name": "game-retro game",
+    "description": "\u6e38\u620f\u2022\u590d\u53e4\u6e38\u620f",
+    "preview": "game-retro game.jpg",
+    "prompt": "retro game art {prompt}, 16-bit, vibrant colors, pixelated, nostalgic, charming, fun",
+    "negative": "realistic, photorealistic, 35mm film, deformed, glitch, low contrast, noisy"
+}

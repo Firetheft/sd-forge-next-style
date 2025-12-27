@@ -1,0 +1,7 @@
+{
+    "name": "misc-monochrome",
+    "description": "\u6742\u9879\u2022\u5355\u8272\u98ce\u683c",
+    "preview": "misc-monochrome.jpg",
+    "prompt": "monochrome {prompt}, black and white, contrast, tone, texture, detailed",
+    "negative": "colorful, vibrant, noisy, blurry, deformed"
+}

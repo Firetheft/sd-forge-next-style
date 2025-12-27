@@ -1,0 +1,7 @@
+{
+    "name": "futuristic-biomechanical cyberpunk",
+    "description": "\u672a\u6765\u6d3e\u2022\u751f\u7269\u673a\u68b0\u8d5b\u535a\u670b\u514b",
+    "preview": "futuristic-biomechanical cyberpunk.jpg",
+    "prompt": "biomechanical cyberpunk {prompt}, cybernetics, human-machine fusion, dystopian, organic meets artificial, dark, intricate, highly detailed",
+    "negative": "natural, colorful, deformed, sketch, low contrast, watercolor"
+}

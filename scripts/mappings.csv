@@ -1,0 +1,258 @@
+type,key,value
+mediums,3D Printing,3d Printing art of
+mediums,Acrylic Paint,Acrylic Paint art of
+mediums,Airbrush,Airbrush art of
+mediums,Algorithmic,Algorithmic art of
+mediums,Animation,Animation art of
+mediums,Art Glass,Art Glass art of
+mediums,Assemblage,Assemblage art of
+mediums,Augmented Reality,Augmented Reality art of
+mediums,Batik,Batik art of
+mediums,Beadwork,Beadwork art of
+mediums,Body Painting,Body Painting art of
+mediums,Bookbinding,Bookbinding art of
+mediums,Bronze,Bronze art of
+mediums,Calligraphy,Calligraphy art of
+mediums,Cast Paper,Cast Paper art of
+mediums,Ceramics,Ceramics art of
+mediums,Chalk,Chalk art of
+mediums,Charcoal,Charcoal art of
+mediums,Clay,Clay art of
+mediums,Collage,Collage art of
+mediums,Collagraphy,Collagraphy art of
+mediums,Colored Pencil,Colored Pencil art of
+mediums,Computer-generated Imagery (CGI),Computer-generated Imagery (cgi) art of
+mediums,Conceptual,Conceptual art of
+mediums,Copper Etching,Copper Etching art of
+mediums,Crochet,Crochet art of
+mediums,Decoupage,Decoupage art of
+mediums,Digital Mosaic,Digital Mosaic art of
+mediums,Digital Painting,Digital Painting art of
+mediums,Digital Sculpture,Digital Sculpture art of
+mediums,Diorama,Diorama art of
+mediums,Embroidery,Embroidery art of
+mediums,Enamel,Enamel art of
+mediums,Encaustic Painting,Encaustic Painting art of
+mediums,Environmental,Environmental art of
+mediums,Etching,Etching art of
+mediums,Fabric,Fabric art of
+mediums,Felting,Felting art of
+mediums,Fiber,Fiber art of
+mediums,Foam Carving,Foam Carving art of
+mediums,Found Objects,Found Objects art of
+mediums,Fresco,Fresco art of
+mediums,Glass,Glass art of
+mediums,Glitch,Glitch art of
+mediums,Gold Leaf,Gold Leaf art of
+mediums,Gouache,Gouache art of
+mediums,Graffiti,Graffiti art of
+mediums,Graphite Pencil,Graphite Pencil art of
+mediums,Ice,Ice art of
+mediums,Ink Wash Painting,Ink Wash Painting art of
+mediums,Installation,Installation art of
+mediums,Intaglio Printing,Intaglio Printing art of
+mediums,Interactive Media,Interactive Media art of
+mediums,Kinetic,Kinetic art of
+mediums,Knitting,Knitting art of
+mediums,Land,Land art of
+mediums,Leather,Leather art of
+mediums,Lenticular Printing,Lenticular Printing art of
+mediums,Light Projection,Light Projection art of
+mediums,Lithography,Lithography art of
+mediums,Macrame,Macrame art of
+mediums,Marble,Marble art of
+mediums,Metal,Metal art of
+mediums,Metalpoint,Metalpoint art of
+mediums,Miniature Painting,Miniature Painting art of
+mediums,Mixed Media,Mixed Media art of
+mediums,Monotype Printing,Monotype Printing art of
+mediums,Mosaic Tile,Mosaic Tile art of
+mediums,Mosaic,Mosaic art of
+mediums,Neon,Neon art of
+mediums,Oil Paint,Oil Paint art of
+mediums,Origami,Origami art of
+mediums,Papermaking,Papermaking art of
+mediums,Papier-mâché,Papier-mâché art of
+mediums,Pastel,Pastel art of
+mediums,Pen And Ink,Pen And Ink art of
+mediums,Performance,Performance art of
+mediums,Photography,Photography art of
+mediums,Photomontage,Photomontage art of
+mediums,Plaster,Plaster art of
+mediums,Plastics,Plastics art of
+mediums,Polymer Clay,Polymer Clay art of
+mediums,Printmaking,Printmaking art of
+mediums,Puppetry,Puppetry art of
+mediums,Pyrography,Pyrography art of
+mediums,Quilling,Quilling art of
+mediums,Quilt,Quilt art of
+mediums,Recycled,Recycled art of
+mediums,Relief Printing,Relief Printing art of
+mediums,Resin,Resin art of
+mediums,Reverse Glass Painting,Reverse Glass Painting art of
+mediums,Sand,Sand art of
+mediums,Scratchboard,Scratchboard art of
+mediums,Screen Printing,Screen Printing art of
+mediums,Scrimshaw,Scrimshaw art of
+mediums,Sculpture Welding,Sculpture Welding art of
+mediums,Sequin,Sequin art of
+mediums,Silk Painting,Silk Painting art of
+mediums,Silverpoint,Silverpoint art of
+mediums,Sound,Sound art of
+mediums,Spray Paint,Spray Paint art of
+mediums,Stained Glass,Stained Glass art of
+mediums,Stencil,Stencil art of
+mediums,Stone,Stone art of
+mediums,Tapestry,Tapestry art of
+mediums,Tattoo,Tattoo art of
+mediums,Tempera,Tempera art of
+mediums,Terra-cotta,Terra-cotta art of
+mediums,Textile,Textile art of
+mediums,Video,Video art of
+mediums,Virtual Reality,Virtual Reality art of
+mediums,Watercolor,Watercolor art of
+mediums,Wax,Wax art of
+mediums,Weaving,Weaving art of
+mediums,Wire Sculpture,Wire Sculpture art of
+mediums,Wood,Wood art of
+mediums,Woodcut,Woodcut art of
+style,Abstract Expressionism,Abstract Expressionism art
+style,Abstract Illusionism,Abstract Illusionism art
+style,Academic,Academic art
+style,Acid,Acid art
+style,Action Painting,Action Painting art
+style,Analytic Cubism,Analytic Cubism art
+style,Appropriation,Appropriation art
+style,Arabesque,Arabesque art
+style,Art Deco,Art Deco art
+style,Art Informel,Art Informel art
+style,Art Nouveau,Art Nouveau art
+style,Art Photography,Art Photography art
+style,Art and Language,Art and Language art
+style,Arte Povera,Arte Povera art
+style,Ashcan School,Ashcan School art
+style,Automatism,Automatism art
+style,Baroque,Baroque art
+style,Bauhaus,Bauhaus art
+style,Bio,Bio art
+style,Brutalism,Brutalism art
+style,Byzantine,Byzantine art
+style,Calligraffiti,Calligraffiti art
+style,Chiaroscuro,Chiaroscuro art
+style,Classicism,Classicism art
+style,Cloisonnism,Cloisonnism art
+style,Color Field,Color Field art
+style,Computer,Computer art
+style,Conceptual,Conceptual art
+style,Constructivism,Constructivism art
+style,Contemporary,Contemporary art
+style,Cubism,Cubism art
+style,Dadaism,Dadaism art
+style,Dataism,Dataism art
+style,De Stijl,De Stijl art
+style,Digital,Digital art
+style,Divisionism,Divisionism art
+style,Environmental,Environmental art
+style,Expressionism,Expressionism art
+style,Fauvism,Fauvism art
+style,Feminist,Feminist art
+style,Folk,Folk art
+style,Futurism,Futurism art
+style,Generative,Generative art
+style,Glitch,Glitch art
+style,Gongbi,Gongbi art
+style,Gothic,Gothic art
+style,Graffiti,Graffiti art
+style,Gutai Group,Gutai Group art
+style,Haptic,Haptic art
+style,Hard-edge Painting,Hard-edge Painting art
+style,Hyperrealism,Hyperrealism art
+style,Impressionism,Impressionism art
+style,Installation,Installation art
+style,Intimism,Intimism art
+style,Italian Futurism,Italian Futurism art
+style,Japonism,Japonism art
+style,Kinetic,Kinetic art
+style,Kitsch,Kitsch art
+style,Land,Land art
+style,Lettrism,Lettrism art
+style,Literati Painting,Literati Painting art
+style,Lowbrow,Lowbrow art
+style,Luminism,Luminism art
+style,Lyrical Abstraction,Lyrical Abstraction art
+style,Magic Realism,Magic Realism art
+style,Mail,Mail art
+style,Mannerism,Mannerism art
+style,Medieval,Medieval art
+style,Metaphysical Painting,Metaphysical Painting art
+style,Mingei (Japanese Folk Art),Mingei (Japanese Folk Art) art
+style,Minimalism,Minimalism art
+style,Modern,Modern art
+style,Mono-ha,Mono-ha art
+style,Monochromism,Monochromism art
+style,Muralism,Muralism art
+style,Narrative,Narrative art
+style,Naïve,Naïve art
+style,Neo-Dada,Neo-Dada art
+style,Neo-Fauvism,Neo-Fauvism art
+style,Neo-Figurative,Neo-Figurative art
+style,Neo-Plasticism,Neo-Plasticism art
+style,Neo-Romanticism,Neo-Romanticism art
+style,Neo-expressionism,Neo-expressionism art
+style,Neoclassicism,Neoclassicism art
+style,New Leipzig School,New Leipzig School art
+style,New Media,New Media art
+style,New Objectivity,New Objectivity art
+style,Nihonga (Japanese traditional painting),Nihonga (Japanese traditional painting) art
+style,Op,Op art
+style,Orphism,Orphism art
+style,Outrenoir,Outrenoir art
+style,Outsider,Outsider art
+style,Performance,Performance art
+style,Photorealism,Photorealism art
+style,Pixel,Pixel art
+style,Pointillism,Pointillism art
+style,Pop,Pop art
+style,Post-Impressionism,Post-Impressionism art
+style,Post-Painterly Abstraction,Post-Painterly Abstraction art
+style,Pre-Raphaelite Brotherhood,Pre-Raphaelite Brotherhood art
+style,Precisionism,Precisionism art
+style,Primitive,Primitive art
+style,Psychedelic,Psychedelic art
+style,Purism,Purism art
+style,Realism,Realism art
+style,Regionalism,Regionalism art
+style,Renaissance,Renaissance art
+style,Rococo,Rococo art
+style,Romanticism,Romanticism art
+style,Russian Futurism,Russian Futurism art
+style,Situationism,Situationism art
+style,Social Realism,Social Realism art
+style,Socialist Realism,Socialist Realism art
+style,Sound,Sound art
+style,Spatialism,Spatialism art
+style,Spectralism,Spectralism art
+style,Street,Street art
+style,Stuckism,Stuckism art
+style,Superflat,Superflat art
+style,Suprematism,Suprematism art
+style,Surrealism,Surrealism art
+style,Symbolism,Symbolism art
+style,Synchromism,Synchromism art
+style,Synthetic Cubism,Synthetic Cubism art
+style,Tachisme,Tachisme art
+style,Tenebrism,Tenebrism art
+style,Tonalism,Tonalism art
+style,Toyism,Toyism art
+style,Transavantgarde,Transavantgarde art
+style,Trompe-l'oeil,Trompe-l'oeil art
+style,Vector,Vector art
+style,Verism,Verism art
+style,Video,Video art
+style,Virtual,Virtual art
+style,Visionary,Visionary art
+style,Vorticism,Vorticism art
+style,Wabi-sabi,Wabi-sabi art
+style,Yamato-e,Yamato-e art
+style,Young British Artists,Young British Artists art
+style,Zhe School,Zhe School art

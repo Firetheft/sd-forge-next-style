@@ -1,0 +1,7 @@
+{
+    "name": "Doodle Art",
+    "description": "\u88c5\u9970\u6027\u6d82\u9e26\u827a\u672f",
+    "preview": "Doodle Art.jpg",
+    "prompt": "Doodle Art Style, {prompt}, drawing, freeform, swirling patterns, doodle art style",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Sketchup",
+    "description": "Sketchup\u8bbe\u8ba1",
+    "preview": "Sketchup.jpg",
+    "prompt": "Sketchup, {prompt}, CAD, professional design, Sketchup",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, photo, photograph"
+}

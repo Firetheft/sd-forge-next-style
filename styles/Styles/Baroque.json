@@ -1,0 +1,7 @@
+{
+    "name": "Baroque",
+    "description": "\u5df4\u6d1b\u514b",
+    "preview": "Baroque.jpg",
+    "prompt": "Baroque, {prompt}, dramatic, exuberant, grandeur, baroque art",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

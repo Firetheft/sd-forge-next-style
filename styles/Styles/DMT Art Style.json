@@ -1,0 +1,7 @@
+{
+    "name": "DMT Art Style",
+    "description": "DMT\u827a\u672f\u98ce\u683c",
+    "preview": "DMT Art Style.jpg",
+    "prompt": "DMT Art Style, {prompt}, bright colors, surreal visuals, swirling patterns, DMT art style",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

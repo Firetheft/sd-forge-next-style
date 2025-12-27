@@ -1,0 +1,7 @@
+{
+    "name": "MK Albumen Print",
+    "description": "MK\u2022\u86cb\u767d\u5370\u5237",
+    "preview": "MK Albumen Print.jpg",
+    "prompt": "Albumen print {prompt}. Sepia tones, fine details, subtle tonal gradations, delicate highlights, vintage aesthetic, soft and muted atmosphere, historical charm, rich textures, meticulous craftsmanship, classic photographic technique, vignetting",
+    "negative": "vibrant colors, high contrast, modern, digital appearance, sharp details, contemporary style"
+}

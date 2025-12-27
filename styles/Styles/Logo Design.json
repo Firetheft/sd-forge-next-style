@@ -1,0 +1,7 @@
+{
+    "name": "Logo Design",
+    "description": "Logo\u8bbe\u8ba1",
+    "preview": "Logo Design.jpg",
+    "prompt": "Logo Design, {prompt}, dynamic graphic art, vector art, minimalist, professional logo design",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

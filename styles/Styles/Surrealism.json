@@ -1,0 +1,7 @@
+{
+    "name": "Surrealism",
+    "description": "\u8d85\u73b0\u5b9e\u4e3b\u4e49",
+    "preview": "Surrealism.jpg",
+    "prompt": "Surrealism, {prompt}, expressive, dramatic, organic lines and forms, dreamlike and mysterious, Surrealism",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, realistic"
+}

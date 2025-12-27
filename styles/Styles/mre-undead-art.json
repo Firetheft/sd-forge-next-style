@@ -1,0 +1,7 @@
+{
+    "name": "mre-undead-art",
+    "description": "MRE\u2022\u4e0d\u6b7b\u7684\u827a\u672f",
+    "preview": "mre-undead-art.jpg",
+    "prompt": "long forgotten art created by undead artist illustrating {prompt}, tribute to the death and decay. miserable art of the damned. wretched and decaying world. best quality, high resolution",
+    "negative": "alive, playful, living. low quality, low resolution"
+}

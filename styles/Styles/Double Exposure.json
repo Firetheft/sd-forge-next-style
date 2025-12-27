@@ -1,0 +1,7 @@
+{
+    "name": "Double Exposure",
+    "description": "\u53cc\u91cd\u66dd\u5149",
+    "preview": "Double Exposure.jpg",
+    "prompt": "Double Exposure Style, {prompt}, double image ghost effect, image combination, double exposure style",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

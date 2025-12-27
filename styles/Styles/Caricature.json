@@ -1,0 +1,7 @@
+{
+    "name": "Caricature",
+    "description": "\u6f2b\u753b\u8096\u50cf",
+    "preview": "Caricature.jpg",
+    "prompt": "Caricature, {prompt}, exaggerated, comical, caricature",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, realistic"
+}

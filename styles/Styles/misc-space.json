@@ -1,0 +1,7 @@
+{
+    "name": "misc-space",
+    "description": "\u6742\u9879\u2022\u592a\u7a7a\u98ce\u683c",
+    "preview": "misc-space.jpg",
+    "prompt": "space-themed {prompt}, cosmic, celestial, stars, galaxies, nebulas, planets, science fiction, highly detailed",
+    "negative": "earthly, mundane, ground-based, realism"
+}

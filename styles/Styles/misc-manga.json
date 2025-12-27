@@ -1,0 +1,7 @@
+{
+    "name": "misc-manga",
+    "description": "\u6742\u9879\u2022\u6f2b\u753b\u98ce\u683c",
+    "preview": "misc-manga.jpg",
+    "prompt": "manga style {prompt}, vibrant, high-energy, detailed, iconic, Japanese comic style",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, Western comic style"
+}

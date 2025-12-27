@@ -1,0 +1,7 @@
+{
+    "name": "ads-advertising",
+    "description": "\u5e7f\u544a\u2022\u5e7f\u544a\u4e1a",
+    "preview": "ads-advertising.jpg",
+    "prompt": "advertising poster style {prompt}, Professional, modern, product-focused, commercial, eye-catching, highly detailed",
+    "negative": "noisy, blurry, amateurish, sloppy, unattractive"
+}

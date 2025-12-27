@@ -1,0 +1,7 @@
+{
+    "name": "mre-surreal-painting",
+    "description": "MRE\u2022\u8d85\u73b0\u5b9e\u7684\u753b",
+    "preview": "mre-surreal-painting.jpg",
+    "prompt": "surreal painting representing strange vision of {prompt}. harmonious madness, synergy with chance. unique artstyle, mindbending art, magical surrealism. best quality, high resolution",
+    "negative": "photography, illustration, drawing. realistic, possible. logical, sane. low quality, low resolution"
+}

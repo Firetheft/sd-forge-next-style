@@ -1,0 +1,7 @@
+{
+    "name": "futuristic-vaporwave",
+    "description": "\u672a\u6765\u6d3e\u2022\u84b8\u6c7d\u6ce2",
+    "preview": "futuristic-vaporwave.jpg",
+    "prompt": "vaporwave style {prompt}, retro aesthetic, cyberpunk, vibrant, neon colors, vintage 80s and 90s style, highly detailed",
+    "negative": "monochrome, muted colors, realism, rustic, minimalist, dark"
+}

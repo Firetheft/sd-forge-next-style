@@ -1,0 +1,7 @@
+{
+    "name": "MK Blacklight Paint",
+    "description": "MK\u2022\u9ed1\u5149\u6f06",
+    "preview": "MK Blacklight Paint.jpg",
+    "prompt": "Blacklight paint {prompt}. Fluorescent pigments, vibrant and surreal colors, ethereal glow, otherworldly effects, dynamic and psychedelic compositions, neon aesthetics, transformative in ultraviolet light, contemporary and experimental",
+    "negative": "muted colors, traditional and realistic compositions"
+}

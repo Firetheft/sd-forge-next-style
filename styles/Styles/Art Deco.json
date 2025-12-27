@@ -1,0 +1,7 @@
+{
+    "name": "Art Deco",
+    "description": "\u827a\u672f\u88c5\u9970",
+    "preview": "Art Deco.jpg",
+    "prompt": "Art Deco, {prompt}, sleek, geometric forms, art deco style",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "futuristic-retro cyberpunk",
+    "description": "\u672a\u6765\u6d3e\u2022\u590d\u53e4\u8d5b\u535a\u670b\u514b",
+    "preview": "futuristic-retro cyberpunk.jpg",
+    "prompt": "retro cyberpunk {prompt}, 80's inspired, synthwave, neon, vibrant, detailed, retro futurism",
+    "negative": "modern, desaturated, black and white, realism, low contrast"
+}

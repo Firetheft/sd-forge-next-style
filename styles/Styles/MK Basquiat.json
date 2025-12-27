@@ -1,0 +1,7 @@
+{
+    "name": "MK Basquiat",
+    "description": "MK\u2022\u5df4\u65af\u5947\u4e9a\u7279",
+    "preview": "MK Basquiat.jpg",
+    "prompt": "Artwork by Jean-Michel Basquiat {prompt}. Neo-expressionism, street art influence, graffiti-inspired, raw, energetic, bold colors, dynamic composition, chaotic, layered, textural, expressive, spontaneous, distinctive, symbolic, energetic brushstrokes",
+    "negative": "(realistic:1.5), (photorealistic:1.5), calm, precise lines, conventional composition, subdued"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "sai-pixel art",
+    "description": "SAI\u2022\u50cf\u7d20\u827a\u672f",
+    "preview": "sai-pixel art.jpg",
+    "prompt": "pixel-art {prompt}, low-res, blocky, pixel art style, 8-bit graphics",
+    "negative": "sloppy, messy, blurry, noisy, highly detailed, ultra textured, photo, realistic"
+}

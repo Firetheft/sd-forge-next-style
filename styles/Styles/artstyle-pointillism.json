@@ -1,0 +1,7 @@
+{
+    "name": "artstyle-pointillism",
+    "description": "\u827a\u672f\u98ce\u683c\u2022\u70b9\u5f69\u6d3e",
+    "preview": "artstyle-pointillism.jpg",
+    "prompt": "pointillism style {prompt}, composed entirely of small, distinct dots of color, vibrant, highly detailed",
+    "negative": "line drawing, smooth shading, large color fields, simplistic"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "misc-fairy tale",
+    "description": "\u6742\u9879\u2022\u7ae5\u8bdd",
+    "preview": "misc-fairy tale.jpg",
+    "prompt": "fairy tale {prompt}, magical, fantastical, enchanting, storybook style, highly detailed",
+    "negative": "realistic, modern, ordinary, mundane"
+}

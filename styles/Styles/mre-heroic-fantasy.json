@@ -1,0 +1,7 @@
+{
+    "name": "mre-heroic-fantasy",
+    "description": "MRE\u2022\u82f1\u96c4\u5e7b\u60f3",
+    "preview": "mre-heroic-fantasy.jpg",
+    "prompt": "heroic fantasy painting of {prompt}, in the dangerous fantasy world. airbrush over oil on canvas. best quality, high resolution",
+    "negative": "low quality, low resolution"
+}

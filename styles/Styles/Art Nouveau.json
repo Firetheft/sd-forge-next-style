@@ -1,0 +1,7 @@
+{
+    "name": "Art Nouveau",
+    "description": "\u65b0\u827a\u672f",
+    "preview": "Art Nouveau.jpg",
+    "prompt": "Art Nouveau, beautiful art, {prompt}, sleek, organic forms, long, sinuous, art nouveau style",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, industrial, mechanical"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "artstyle-cubist",
+    "description": "\u827a\u672f\u98ce\u683c\u2022\u7acb\u4f53\u4e3b\u4e49",
+    "preview": "artstyle-cubist.jpg",
+    "prompt": "cubist artwork {prompt}, geometric shapes, abstract, innovative, revolutionary",
+    "negative": "anime, photorealistic, 35mm film, deformed, glitch, low contrast, noisy"
+}

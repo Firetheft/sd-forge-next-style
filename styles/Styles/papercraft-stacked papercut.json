@@ -1,0 +1,7 @@
+{
+    "name": "papercraft-stacked papercut",
+    "description": "\u7eb8\u827a\u2022\u5c42\u53e0\u526a\u7eb8",
+    "preview": "papercraft-stacked papercut.jpg",
+    "prompt": "stacked papercut art of {prompt}, 3D, layered, dimensional, depth, precision cut, stacked layers, papercut, high contrast",
+    "negative": "2D, flat, noisy, blurry, painting, drawing, photo, deformed"
+}

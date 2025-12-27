@@ -1,0 +1,7 @@
+{
+    "name": "Dadaism",
+    "description": "\u8fbe\u8fbe\u4e3b\u4e49",
+    "preview": "Dadaism.jpg",
+    "prompt": "Dadaism Art, {prompt}, satirical, nonsensical, dadaism art",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

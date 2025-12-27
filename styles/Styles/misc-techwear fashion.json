@@ -1,0 +1,7 @@
+{
+    "name": "misc-techwear fashion",
+    "description": "\u6742\u9879\u2022\u79d1\u6280\u670d\u88c5\u98ce\u683c",
+    "preview": "misc-techwear fashion.jpg",
+    "prompt": "techwear fashion {prompt}, futuristic, cyberpunk, urban, tactical, sleek, dark, highly detailed",
+    "negative": "vintage, rural, colorful, low contrast, realism, sketch, watercolor"
+}

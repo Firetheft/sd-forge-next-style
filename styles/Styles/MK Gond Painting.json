@@ -1,0 +1,7 @@
+{
+    "name": "MK Gond Painting",
+    "description": "MK\u2022\u8d21\u5fb7\u7ed8\u753b",
+    "preview": "MK Gond Painting.jpg",
+    "prompt": "Gond painting {prompt}. Intricate patterns, vibrant colors, detailed motifs, nature-inspired themes, tribal folklore, fine lines, intricate detailing, storytelling compositions, mystical and folkloric, cultural richness",
+    "negative": "monochromatic, abstract shapes, minimalistic"
+}

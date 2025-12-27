@@ -1,0 +1,7 @@
+{
+    "name": "sai-3d-model",
+    "description": "SAI\u20223D\u6a21\u578b",
+    "preview": "sai-3d-model.jpg",
+    "prompt": "professional 3d model {prompt}, octane render, highly detailed, volumetric, dramatic lighting",
+    "negative": "ugly, deformed, noisy, low poly, blurry, painting"
+}

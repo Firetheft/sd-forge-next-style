@@ -1,0 +1,7 @@
+{
+    "name": "artstyle-typography",
+    "description": "\u827a\u672f\u98ce\u683c\u2022\u6392\u7248\u827a\u672f",
+    "preview": "artstyle-typography.jpg",
+    "prompt": "typographic art {prompt}, stylized, intricate, detailed, artistic, text-based",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic"
+}

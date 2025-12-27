@@ -1,0 +1,7 @@
+{
+    "name": "MK Anthotype Print",
+    "description": "MK\u2022\u82b1\u5349\u5370\u5237",
+    "preview": "MK Anthotype Print.jpg",
+    "prompt": "Anthotype print {prompt}. Monochrome dye, soft and muted colors, organic textures, ephemeral and delicate appearance, low details, watercolor canvas, low contrast, overexposed, silhouette, textured paper",
+    "negative": "vibrant synthetic dyes, bold and saturated colors"
+}

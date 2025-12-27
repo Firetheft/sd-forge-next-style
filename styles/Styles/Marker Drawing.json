@@ -1,0 +1,7 @@
+{
+    "name": "Marker Drawing",
+    "description": "\u9a6c\u514b\u7b14\u7ed8\u753b",
+    "preview": "Marker Drawing.jpg",
+    "prompt": "Marker Drawing, {prompt}, bold marker lines, visibile paper texture, marker drawing",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, photograph, realistic"
+}

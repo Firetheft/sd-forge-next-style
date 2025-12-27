@@ -1,0 +1,7 @@
+{
+    "name": "game-rpg fantasy game",
+    "description": "\u6e38\u620f\u2022\u89d2\u8272\u626e\u6f14\u5947\u5e7b\u6e38\u620f",
+    "preview": "game-rpg fantasy game.jpg",
+    "prompt": "role-playing game (RPG) style fantasy {prompt}, detailed, vibrant, immersive, reminiscent of high fantasy RPG games",
+    "negative": "sci-fi, modern, urban, futuristic, low detailed"
+}

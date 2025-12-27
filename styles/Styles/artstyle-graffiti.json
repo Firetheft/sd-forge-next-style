@@ -1,0 +1,7 @@
+{
+    "name": "artstyle-graffiti",
+    "description": "\u827a\u672f\u98ce\u683c\u2022\u6d82\u9e26",
+    "preview": "artstyle-graffiti.jpg",
+    "prompt": "graffiti style {prompt}, street art, vibrant, urban, detailed, tag, mural",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic"
+}

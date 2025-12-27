@@ -1,0 +1,7 @@
+{
+    "name": "MK illuminated-manuscript",
+    "description": "MK\u2022\u9970\u9762\u624b\u6284\u672c",
+    "preview": "MK illuminated-manuscript.jpg",
+    "prompt": "Illuminated manuscript {prompt}. intricate calligraphy, rich colors, detailed illustrations, gold leaf accents, ornate borders, religious, historical, medieval",
+    "negative": "modern typography, minimalist design, monochromatic, abstract themes"
+}

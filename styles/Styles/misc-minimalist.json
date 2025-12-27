@@ -1,0 +1,7 @@
+{
+    "name": "misc-minimalist",
+    "description": "\u6742\u9879\u2022\u6781\u7b80\u98ce\u683c",
+    "preview": "misc-minimalist.jpg",
+    "prompt": "minimalist style {prompt}, simple, clean, uncluttered, modern, elegant",
+    "negative": "ornate, complicated, highly detailed, cluttered, disordered, messy, noisy"
+}

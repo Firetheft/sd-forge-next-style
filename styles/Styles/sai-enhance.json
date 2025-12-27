@@ -1,0 +1,7 @@
+{
+    "name": "sai-enhance",
+    "description": "SAI\u2022\u589e\u5f3a",
+    "preview": "sai-enhance.jpg",
+    "prompt": "breathtaking {prompt}, award-winning, professional, highly detailed",
+    "negative": "ugly, deformed, noisy, blurry, distorted, grainy"
+}

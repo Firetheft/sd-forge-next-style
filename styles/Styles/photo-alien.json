@@ -1,0 +1,7 @@
+{
+    "name": "photo-alien",
+    "description": "\u6444\u5f71\u2022\u5916\u661f\u98ce\u683c",
+    "preview": "photo-alien.jpg",
+    "prompt": "alien-themed {prompt}, extraterrestrial, cosmic, otherworldly, mysterious, sci-fi, highly detailed",
+    "negative": "earthly, mundane, common, realistic, simple"
+}

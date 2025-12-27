@@ -1,0 +1,7 @@
+{
+    "name": "misc-nautical",
+    "description": "\u6742\u9879\u2022\u822a\u6d77\u98ce\u683c",
+    "preview": "misc-nautical.jpg",
+    "prompt": "nautical-themed {prompt}, sea, ocean, ships, maritime, beach, marine life, highly detailed",
+    "negative": "landlocked, desert, mountains, urban, rustic"
+}

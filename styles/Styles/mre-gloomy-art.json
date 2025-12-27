@@ -1,0 +1,7 @@
+{
+    "name": "mre-gloomy-art",
+    "description": "MRE\u2022\u9634\u90c1\u7684\u827a\u672f",
+    "preview": "mre-gloomy-art.jpg",
+    "prompt": "astonishing gloomy art made mainly of shadows and lighting, forming {prompt}. masterful usage of lighting, shadows and chiaroscuro. made by black-hearted artist, drawing from darkness. best quality, high resolution",
+    "negative": "low quality, low resolution"
+}

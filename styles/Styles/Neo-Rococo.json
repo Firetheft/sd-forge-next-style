@@ -1,0 +1,7 @@
+{
+    "name": "Neo-Rococo",
+    "description": "\u65b0\u6d1b\u53ef\u53ef\u98ce\u683c",
+    "preview": "Neo-Rococo.jpg",
+    "prompt": "Neo-Rococo, {prompt}, curved forms, naturalistic ornamentation, elaborate, decorative, gaudy, Neo-Rococo",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

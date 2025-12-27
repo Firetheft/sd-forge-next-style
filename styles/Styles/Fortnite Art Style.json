@@ -1,0 +1,7 @@
+{
+    "name": "Fortnite Art Style",
+    "description": "\u5821\u5792\u4e4b\u591c\u827a\u672f\u98ce\u683c",
+    "preview": "Fortnite Art Style.jpg",
+    "prompt": "Fortnite Art Style, {prompt}, 3D cartoon, colorful, Fortnite Art Style",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, photo, realistic"
+}

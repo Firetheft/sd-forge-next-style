@@ -1,0 +1,7 @@
+{
+    "name": "artstyle-renaissance",
+    "description": "\u827a\u672f\u98ce\u683c\u2022\u6587\u827a\u590d\u5174",
+    "preview": "artstyle-renaissance.jpg",
+    "prompt": "renaissance style {prompt}, realistic, perspective, light and shadow, religious or mythological themes, highly detailed",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, modernist, minimalist, abstract"
+}

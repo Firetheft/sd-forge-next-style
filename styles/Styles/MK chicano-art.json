@@ -1,0 +1,7 @@
+{
+    "name": "MK chicano-art",
+    "description": "MK\u2022\u5947\u5361\u8bfa\u827a\u672f",
+    "preview": "MK chicano-art.jpg",
+    "prompt": "Chicano art {prompt}. bold colors, cultural symbolism, muralism, lowrider aesthetics, barrio life, political messages, social activism, Mexico",
+    "negative": "monochromatic, minimalist, mainstream aesthetics"
+}

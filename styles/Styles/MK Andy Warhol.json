@@ -1,0 +1,7 @@
+{
+    "name": "MK Andy Warhol",
+    "description": "MK\u2022\u5b89\u8fea\u00b7\u6c83\u970d\u5c14",
+    "preview": "MK Andy Warhol.jpg",
+    "prompt": "Artwork in the style of Andy Warhol {prompt}. Pop art, vibrant colors, bold compositions, repetition of iconic imagery, celebrity culture, commercial aesthetics, mass production influence, stylized simplicity, cultural commentary, graphical elements, distinctive portraits",
+    "negative": "subdued colors, realistic, lack of repetition, minimalistic"
+}

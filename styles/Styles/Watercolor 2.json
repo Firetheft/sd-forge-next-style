@@ -1,0 +1,7 @@
+{
+    "name": "Watercolor 2",
+    "description": "\u6c34\u5f69",
+    "preview": "Watercolor 2.jpg",
+    "prompt": "Watercolor style painting, {prompt}, visible paper texture, colorwash, watercolor",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, photo, realistic"
+}

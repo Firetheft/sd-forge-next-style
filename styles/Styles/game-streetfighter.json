@@ -1,0 +1,7 @@
+{
+    "name": "game-streetfighter",
+    "description": "\u6e38\u620f\u2022\u8857\u5934\u9738\u738b",
+    "preview": "game-streetfighter.jpg",
+    "prompt": "Street Fighter style {prompt}, vibrant, dynamic, arcade, 2D fighting game, highly detailed, reminiscent of Street Fighter series",
+    "negative": "3D, realistic, modern, photorealistic, turn-based strategy"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Adorable Kawaii",
+    "description": "\u53ef\u7231\u8ff7\u4eba",
+    "preview": "Adorable Kawaii.jpg",
+    "prompt": "Adorable Kawaii, {prompt}, pretty, cute, adorable, kawaii",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, gothic, dark, moody, monochromatic"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "MK vintage-travel-poster",
+    "description": "MK\u2022\u590d\u53e4\u65c5\u884c\u6d77\u62a5",
+    "preview": "MK vintage-travel-poster.jpg",
+    "prompt": "vintage travel poster {prompt}. retro fonts, muted colors, scenic illustrations, iconic landmarks, distressed textures, nostalgic vibes",
+    "negative": "modern fonts, vibrant colors, hyper-realistic, sleek design"
+}

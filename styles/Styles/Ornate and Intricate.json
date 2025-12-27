@@ -1,0 +1,7 @@
+{
+    "name": "Ornate and Intricate",
+    "description": "\u534e\u4e3d\u548c\u590d\u6742",
+    "preview": "Ornate and Intricate.jpg",
+    "prompt": "Ornate and Intricate, {prompt}, decorative, highly detailed, elaborate, ornate, intricate",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

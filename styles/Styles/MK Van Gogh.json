@@ -1,0 +1,7 @@
+{
+    "name": "MK Van Gogh",
+    "description": "MK\u2022\u68b5\u9ad8",
+    "preview": "MK Van Gogh.jpg",
+    "prompt": "Oil painting by Van Gogh {prompt}. Expressive, impasto, swirling brushwork, vibrant, brush strokes, Brushstroke-heavy, Textured, Impasto, Colorful, Dynamic, Bold, Distinctive, Vibrant, Whirling, Expressive, Dramatic, Swirling, Layered, Intense, Contrastive, Atmospheric, Luminous, Textural, Evocative, SpiraledVan Gogh style",
+    "negative": "realistic, photorealistic, calm, straight lines, signature, frame, text, watermark"
+}

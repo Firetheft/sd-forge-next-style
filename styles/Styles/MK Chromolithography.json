@@ -1,0 +1,7 @@
+{
+    "name": "MK Chromolithography",
+    "description": "MK\u2022\u5f69\u8272\u77f3\u7248\u5370\u5237",
+    "preview": "MK Chromolithography.jpg",
+    "prompt": "Chromolithograph {prompt}. Vibrant colors, intricate details, rich color saturation, meticulous registration, multi-layered printing, decorative elements, historical charm, artistic reproductions, commercial posters, nostalgic, ornate compositions",
+    "negative": "monochromatic, simple designs, limited color palette, imprecise registration, minimalistic, modern aesthetic, digital appearance"
+}

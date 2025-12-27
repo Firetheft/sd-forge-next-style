@@ -1,0 +1,7 @@
+{
+    "name": "MK Color Sketchnote",
+    "description": "MK\u2022\u5f69\u8272\u901f\u5199\u7b14\u8bb0",
+    "preview": "MK Color Sketchnote.jpg",
+    "prompt": "Color sketchnote {prompt}. Hand-drawn elements, vibrant colors, visual hierarchy, playful illustrations, varied typography, graphic icons, organic and dynamic layout, personalized touches, creative expression, engaging storytelling",
+    "negative": "monochromatic, geometric layout"
+}

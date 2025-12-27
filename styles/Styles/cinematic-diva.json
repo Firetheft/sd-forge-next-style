@@ -1,0 +1,7 @@
+{
+    "name": "cinematic-diva",
+    "description": "\u7535\u5f71-\u9ad8\u5149\u65f6\u523b",
+    "preview": "cinematic-diva.jpg",
+    "prompt": "UHD, 8K, ultra detailed, a cinematic photograph of {prompt}, beautiful lighting, great composition",
+    "negative": "ugly, deformed, noisy, blurry, NSFW"
+}

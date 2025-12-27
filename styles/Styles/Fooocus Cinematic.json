@@ -1,0 +1,7 @@
+{
+    "name": "Fooocus Cinematic",
+    "description": "Fooocus \u7535\u5f71",
+    "preview": "Fooocus Cinematic.jpg",
+    "prompt": "cinematic still {prompt}, emotional, harmonious, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+    "negative": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured"
+}

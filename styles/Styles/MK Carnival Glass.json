@@ -1,0 +1,7 @@
+{
+    "name": "MK Carnival Glass",
+    "description": "MK\u2022\u72c2\u6b22\u8282\u73bb\u7483",
+    "preview": "MK Carnival Glass.jpg",
+    "prompt": "A sculpture made of Carnival glass, {prompt}. Iridescent surfaces, vibrant colors, intricate patterns, opalescent hues, reflective and prismatic effects, Art Nouveau and Art Deco influences, vintage charm, intricate detailing, lustrous and luminous appearance, Carnival Glass style",
+    "negative": "non-iridescent surfaces, muted colors, absence of intricate patterns, lack of opalescent hues, modern and minimalist aesthetic"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Sticker Designs",
+    "description": "\u8d34\u7eb8\u8bbe\u8ba1",
+    "preview": "Sticker Designs.jpg",
+    "prompt": "Vector Art Stickers, {prompt}, professional vector design, sticker designs, Sticker Sheet",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

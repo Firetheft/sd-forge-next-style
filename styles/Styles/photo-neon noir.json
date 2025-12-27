@@ -1,0 +1,7 @@
+{
+    "name": "photo-neon noir",
+    "description": "\u6444\u5f71\u2022\u9713\u8679\u9ed1\u8272\u98ce\u683c",
+    "preview": "photo-neon noir.jpg",
+    "prompt": "neon noir {prompt}, cyberpunk, dark, rainy streets, neon signs, high contrast, low light, vibrant, highly detailed",
+    "negative": "bright, sunny, daytime, low contrast, black and white, sketch, watercolor"
+}

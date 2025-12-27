@@ -1,0 +1,7 @@
+{
+    "name": "misc-tribal",
+    "description": "\u6742\u9879\u2022\u90e8\u843d\u98ce\u683c",
+    "preview": "misc-tribal.jpg",
+    "prompt": "tribal style {prompt}, indigenous, ethnic, traditional patterns, bold, natural colors, highly detailed",
+    "negative": "modern, futuristic, minimalist, pastel"
+}

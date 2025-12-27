@@ -1,0 +1,7 @@
+{
+    "name": "mre-comic",
+    "description": "MRE\u2022\u6f2b\u753b\u4e66",
+    "preview": "mre-comic.jpg",
+    "prompt": "breathtaking illustration from adult comic book presenting {prompt}. fabulous artwork. best quality, high resolution",
+    "negative": "deformed, ugly, low quality, low resolution"
+}

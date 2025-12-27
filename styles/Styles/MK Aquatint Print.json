@@ -1,0 +1,7 @@
+{
+    "name": "MK Aquatint Print",
+    "description": "MK\u2022\u6c34\u5f69\u96d5\u523b\u5370\u5237",
+    "preview": "MK Aquatint Print.jpg",
+    "prompt": "Aquatint print {prompt}. Soft tonal gradations, atmospheric effects, velvety textures, rich contrasts, fine details, etching process, delicate lines, nuanced shading, expressive and moody atmosphere, artistic depth",
+    "negative": "sharp contrasts, bold lines, minimalistic"
+}

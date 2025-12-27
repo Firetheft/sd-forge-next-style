@@ -1,0 +1,7 @@
+{
+    "name": "photo-long exposure",
+    "description": "\u6444\u5f71\u2022\u957f\u66dd\u5149",
+    "preview": "photo-long exposure.jpg",
+    "prompt": "long exposure photo of {prompt}, Blurred motion, streaks of light, surreal, dreamy, ghosting effect, highly detailed",
+    "negative": "static, noisy, deformed, shaky, abrupt, flat, low contrast"
+}

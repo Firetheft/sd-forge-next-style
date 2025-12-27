@@ -1,0 +1,7 @@
+{
+    "name": "ads-real estate",
+    "description": "\u5e7f\u544a\u2022\u623f\u5730\u4ea7",
+    "preview": "ads-real estate.jpg",
+    "prompt": "real estate photography style {prompt}, professional, inviting, well-lit, high-resolution, property-focused, commercial, highly detailed",
+    "negative": "dark, blurry, unappealing, noisy, unprofessional"
+}

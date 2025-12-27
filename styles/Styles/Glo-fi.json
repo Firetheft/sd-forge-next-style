@@ -1,0 +1,7 @@
+{
+    "name": "Glo-fi",
+    "description": "\u53d1\u5149\u4f4e\u4fdd\u771f",
+    "preview": "Glo-fi.jpg",
+    "prompt": "Glo-fi Art Style, {prompt}, dynamic, dramatic, vibrant colors, glo-fi art style",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

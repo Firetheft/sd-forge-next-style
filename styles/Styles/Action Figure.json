@@ -1,0 +1,7 @@
+{
+    "name": "Action Figure",
+    "description": "\u52a8\u4f5c\u4eba\u5076",
+    "preview": "Action Figure.jpg",
+    "prompt": "Action Figure, {prompt}, plastic collectable action figure, collectable toy action figure",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

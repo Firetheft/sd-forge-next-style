@@ -1,0 +1,7 @@
+{
+    "name": "Googie Art Style",
+    "description": "Googie\u827a\u672f\u98ce\u683c",
+    "preview": "Googie Art Style.jpg",
+    "prompt": "Googie Art Style, {prompt}, dynamic, dramatic, 1950's futurism, bold boomerang angles, Googie art style",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

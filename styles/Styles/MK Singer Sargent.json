@@ -1,0 +1,7 @@
+{
+    "name": "MK Singer Sargent",
+    "description": "MK\u2022\u8f9b\u683c\u00b7\u8428\u91d1\u7279",
+    "preview": "MK Singer Sargent.jpg",
+    "prompt": "Oil painting by John Singer Sargent {prompt}. Elegant, refined, masterful technique, realistic portrayal, subtle play of light, captivating expression, rich details, harmonious colors, skillful composition, brush strokes, chiaroscuro",
+    "negative": "realistic, photorealistic, abstract, overly stylized, excessive contrasts, distorted, bright colors, disorder"
+}

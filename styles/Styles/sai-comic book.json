@@ -1,0 +1,7 @@
+{
+    "name": "sai-comic book",
+    "description": "SAI\u2022\u6f2b\u753b\u4e66",
+    "preview": "sai-comic book.jpg",
+    "prompt": "comic {prompt}, graphic illustration, comic art, graphic novel art, vibrant, highly detailed",
+    "negative": "photograph, deformed, glitch, noisy, realistic, stock photo"
+}

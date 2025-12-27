@@ -1,0 +1,7 @@
+{
+    "name": "Flat 2D Art",
+    "description": "\u6241\u5e73\u98ce\u683c",
+    "preview": "Flat 2D Art.jpg",
+    "prompt": "Flat 2D Art, {prompt}, simple flat color, 2-dimensional, Flat 2D Art Style",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, 3D, photo, realistic"
+}

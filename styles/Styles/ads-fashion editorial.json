@@ -1,0 +1,7 @@
+{
+    "name": "ads-fashion editorial",
+    "description": "\u5e7f\u544a\u2022\u65f6\u5c1a\u7f16\u8f91",
+    "preview": "ads-fashion editorial.jpg",
+    "prompt": "fashion editorial style {prompt}, high fashion, trendy, stylish, editorial, magazine style, professional, highly detailed",
+    "negative": "outdated, blurry, noisy, unattractive, sloppy"
+}

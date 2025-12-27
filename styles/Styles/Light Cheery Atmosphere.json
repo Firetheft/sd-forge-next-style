@@ -1,0 +1,7 @@
+{
+    "name": "Light Cheery Atmosphere",
+    "description": "\u8f7b\u677e\u6109\u5feb\u7684\u6c1b\u56f4",
+    "preview": "Light Cheery Atmosphere.jpg",
+    "prompt": "Light Cheery Atmosphere, {prompt}, happy, joyful, cheerful, carefree, gleeful, lighthearted, pleasant atmosphere",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, monochromatic, dark, moody"
+}

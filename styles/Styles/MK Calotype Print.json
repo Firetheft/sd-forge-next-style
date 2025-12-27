@@ -1,0 +1,7 @@
+{
+    "name": "MK Calotype Print",
+    "description": "MK\u2022\u5361\u7f57\u578b\u5370\u5237",
+    "preview": "MK Calotype Print.jpg",
+    "prompt": "Calotype print {prompt}. Soft focus, subtle tonal range, paper negative process, fine details, vintage aesthetic, artistic experimentation, atmospheric mood, early photographic charm, handmade quality, vignetting",
+    "negative": "sharp focus, bold contrasts, modern aesthetic, digital photography"
+}

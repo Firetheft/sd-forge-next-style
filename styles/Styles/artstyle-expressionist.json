@@ -1,0 +1,7 @@
+{
+    "name": "artstyle-expressionist",
+    "description": "\u827a\u672f\u98ce\u683c\u2022\u8868\u73b0\u4e3b\u4e49",
+    "preview": "artstyle-expressionist.jpg",
+    "prompt": "expressionist {prompt}, raw, emotional, dynamic, distortion for emotional effect, vibrant, use of unusual colors, detailed",
+    "negative": "realism, symmetry, quiet, calm, photo"
+}

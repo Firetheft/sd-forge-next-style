@@ -1,0 +1,7 @@
+{
+    "name": "MK kalighat-painting",
+    "description": "MK\u2022\u5361\u5229\u52a0\u7279\u7ed8\u753b",
+    "preview": "MK kalighat-painting.jpg",
+    "prompt": "Kalighat painting {prompt}. bold lines, vibrant colors, narrative storytelling, cultural motifs, flat compositions, expressive characters",
+    "negative": "subdued colors, intricate details, realistic portrayal, modern aesthetics"
+}

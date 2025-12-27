@@ -1,0 +1,7 @@
+{
+    "name": "papercraft-collage",
+    "description": "\u7eb8\u827a\u2022\u62fc\u8d34\u753b",
+    "preview": "papercraft-collage.jpg",
+    "prompt": "collage style {prompt}, mixed media, layered, textural, detailed, artistic",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic"
+}

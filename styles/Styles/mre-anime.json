@@ -1,0 +1,7 @@
+{
+    "name": "mre-anime",
+    "description": "MRE\u2022\u52a8\u6f2b",
+    "preview": "mre-anime.jpg",
+    "prompt": "anime artwork illustrating {prompt}. created by japanese anime studio. highly emotional. best quality, high resolution",
+    "negative": "low quality, low resolution"
+}

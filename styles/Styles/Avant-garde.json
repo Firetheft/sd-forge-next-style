@@ -1,0 +1,7 @@
+{
+    "name": "Avant-garde",
+    "description": "\u524d\u536b\u6d3e",
+    "preview": "Avant-garde.jpg",
+    "prompt": "Avant-garde, {prompt}, unusual, experimental, avant-garde art",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

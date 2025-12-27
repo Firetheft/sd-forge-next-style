@@ -1,0 +1,7 @@
+{
+    "name": "MK shepard-fairey-style",
+    "description": "MK\u2022\u8c22\u6cfc\u5fb7\u00b7\u8d39\u5c14\u96f7\u8857\u5934\u827a\u672f",
+    "preview": "MK shepard-fairey-style.jpg",
+    "prompt": "Painting by Shepard Fairey {prompt}. street art, political activism, iconic stencils, bold typography, high contrast, red, black, and white color palette",
+    "negative": "traditional, muted colors"
+}

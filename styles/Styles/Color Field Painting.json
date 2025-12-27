@@ -1,0 +1,7 @@
+{
+    "name": "Color Field Painting",
+    "description": "\u8272\u5757\u7ed8\u753b",
+    "preview": "Color Field Painting.jpg",
+    "prompt": "Color Field Painting, {prompt}, abstract, simple, geometic, color field painting style",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

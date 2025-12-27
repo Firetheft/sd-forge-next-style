@@ -1,0 +1,7 @@
+{
+    "name": "sai-craft clay",
+    "description": "SAI\u2022\u624b\u5de5\u7c98\u571f",
+    "preview": "sai-craft clay.jpg",
+    "prompt": "play-doh style {prompt}, sculpture, clay art, centered composition, Claymation",
+    "negative": "sloppy, messy, grainy, highly detailed, ultra textured, photo"
+}

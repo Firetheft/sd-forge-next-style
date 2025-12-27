@@ -1,0 +1,7 @@
+{
+    "name": "game-retro arcade",
+    "description": "\u6e38\u620f\u2022\u590d\u53e4\u8857\u673a",
+    "preview": "game-retro arcade.jpg",
+    "prompt": "retro arcade style {prompt}, 8-bit, pixelated, vibrant, classic video game, old school gaming, reminiscent of 80s and 90s arcade games",
+    "negative": "modern, ultra-high resolution, photorealistic, 3D"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Neo-Byzantine",
+    "description": "\u65b0\u62dc\u5360\u5ead",
+    "preview": "Neo-Byzantine.jpg",
+    "prompt": "Neo-Byzantine, {prompt}, grand decorative religious style, Orthodox Christian inspired, Neo-Byzantine",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "MK Alcohol Ink Art",
+    "description": "MK\u2022\u9152\u7cbe\u58a8\u827a\u672f",
+    "preview": "MK Alcohol Ink Art.jpg",
+    "prompt": "Alcohol ink art {prompt}. Fluid and vibrant colors, unpredictable patterns, organic textures, translucent layers, abstract compositions, ethereal and dreamy effects, free-flowing movement, expressive brushstrokes, contemporary aesthetic, wet textured paper",
+    "negative": "monochromatic, controlled patterns"
+}

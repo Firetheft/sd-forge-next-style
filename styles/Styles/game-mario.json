@@ -1,0 +1,7 @@
+{
+    "name": "game-mario",
+    "description": "\u6e38\u620f\u2022\u8d85\u7ea7\u9a6c\u91cc\u5965",
+    "preview": "game-mario.jpg",
+    "prompt": "Super Mario style {prompt}, vibrant, cute, cartoony, fantasy, playful, reminiscent of Super Mario series",
+    "negative": "realistic, modern, horror, dystopian, violent"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Steampunk 2",
+    "description": "\u672a\u6765\u84b8\u6c7d\u670b\u514b",
+    "preview": "Steampunk 2.jpg",
+    "prompt": "Steampunk, {prompt}, retrofuturistic science fantasy, steam-powered tech, vintage industry, gears, neo-victorian, steampunk",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

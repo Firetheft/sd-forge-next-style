@@ -1,0 +1,7 @@
+{
+    "name": "MK Cross-Stitching",
+    "description": "MK\u2022\u5341\u5b57\u7ee3\u5de5\u827a",
+    "preview": "MK Cross-Stitching.jpg",
+    "prompt": "Cross-stitching {prompt}. Intricate patterns, embroidery thread, sewing, fine details, precise stitches, textile artistry, symmetrical designs, varied color palette, traditional and contemporary motifs, handmade and crafted, canvas, nostalgic charm",
+    "negative": "paper, paint, ink, photography"
+}

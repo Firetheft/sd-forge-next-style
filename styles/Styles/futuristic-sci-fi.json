@@ -1,0 +1,7 @@
+{
+    "name": "futuristic-sci-fi",
+    "description": "\u672a\u6765\u6d3e\u2022\u79d1\u5e7b",
+    "preview": "futuristic-sci-fi.jpg",
+    "prompt": "sci-fi style {prompt}, futuristic, technological, alien worlds, space themes, advanced civilizations",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, historical, medieval"
+}

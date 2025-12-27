@@ -1,0 +1,7 @@
+{
+    "name": "MK Bromoil Print",
+    "description": "MK\u2022\u6eb4\u6cb9\u5370\u5237",
+    "preview": "MK Bromoil Print.jpg",
+    "prompt": "Bromoil print {prompt}. Painterly effects, sepia tones, textured surfaces, rich contrasts, expressive brushwork, tonal variations, vintage aesthetic, atmospheric mood, handmade quality, artistic experimentation, darkroom craftsmanship, vignetting",
+    "negative": "smooth surfaces, minimal brushwork, contemporary digital appearance"
+}

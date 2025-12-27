@@ -1,0 +1,7 @@
+{
+    "name": "MK atompunk",
+    "description": "MK\u2022\u539f\u5b50\u670b\u514b\u63d2\u753b",
+    "preview": "MK atompunk.jpg",
+    "prompt": "Atompunk illustation, {prompt}. retro-futuristic, atomic age aesthetics, sleek lines, metallic textures, futuristic technology, optimism, energy",
+    "negative": "organic, natural textures, rustic, dystopian"
+}

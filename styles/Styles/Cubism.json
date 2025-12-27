@@ -1,0 +1,7 @@
+{
+    "name": "Cubism",
+    "description": "\u7acb\u4f53\u4e3b\u4e49",
+    "preview": "Cubism.jpg",
+    "prompt": "Cubism Art, {prompt}, flat geometric forms, cubism art",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "MK Herbarium",
+    "description": "MK\u2022\u690d\u7269\u6807\u672c\u9986",
+    "preview": "MK Herbarium.jpg",
+    "prompt": "Herbarium drawing {prompt}. Botanical accuracy, old botanical book illustration, detailed illustrations, pressed plants, delicate and precise linework, scientific documentation, meticulous presentation, educational purpose, organic compositions, timeless aesthetic, naturalistic beauty",
+    "negative": "abstract representation, vibrant colors, artistic interpretation, chaotic compositions, fantastical elements, digital appearance"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Classicism Art",
+    "description": "\u53e4\u5178\u4e3b\u4e49\u827a\u672f",
+    "preview": "Classicism Art.jpg",
+    "prompt": "Classicism Art, {prompt}, inspired by Roman and Greek culture, clarity, harmonious, classicism art",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

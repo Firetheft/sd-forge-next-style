@@ -1,0 +1,7 @@
+{
+    "name": "futuristic-cybernetic",
+    "description": "\u672a\u6765\u6d3e\u2022\u8d5b\u535a",
+    "preview": "futuristic-cybernetic.jpg",
+    "prompt": "cybernetic style {prompt}, futuristic, technological, cybernetic enhancements, robotics, artificial intelligence themes",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, historical, medieval"
+}

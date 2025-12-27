@@ -1,0 +1,7 @@
+{
+    "name": "mre-elemental-art",
+    "description": "MRE\u2022\u5143\u7d20\u827a\u672f",
+    "preview": "mre-elemental-art.jpg",
+    "prompt": "art illustrating insane amounts of raging elemental energy turning into {prompt}, avatar of elements. magical surrealism, wizardry. best quality, high resolution",
+    "negative": "photography, realistic, real. low quality, low resolution"
+}

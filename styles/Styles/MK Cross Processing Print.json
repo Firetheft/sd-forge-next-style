@@ -1,0 +1,7 @@
+{
+    "name": "MK Cross Processing Print",
+    "description": "MK\u2022\u4ea4\u53c9\u5904\u7406\u5370\u5237",
+    "preview": "MK Cross Processing Print.jpg",
+    "prompt": "Cross processing print {prompt}. Experimental color shifts, unconventional tonalities, vibrant and surreal hues, heightened contrasts, unpredictable results, artistic unpredictability, retro and vintage feel, dynamic color interplay, abstract and dreamlike",
+    "negative": "predictable color tones, traditional processing, realistic color representation, subdued contrasts, standard photographic aesthetics"
+}

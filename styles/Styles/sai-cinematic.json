@@ -1,0 +1,7 @@
+{
+    "name": "sai-cinematic",
+    "description": "SAI\u2022\u7535\u5f71\u753b\u9762",
+    "preview": "sai-cinematic.jpg",
+    "prompt": "cinematic film still {prompt}, shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy",
+    "negative": "anime, cartoon, graphic, text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured"
+}

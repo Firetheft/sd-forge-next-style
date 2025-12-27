@@ -1,0 +1,7 @@
+{
+    "name": "MK tlingit-art",
+    "description": "MK\u2022\u7279\u6797\u5409\u7279\u827a\u672f",
+    "preview": "MK tlingit-art.jpg",
+    "prompt": "Tlingit art {prompt}. formline design, natural elements, animal motifs, bold colors, cultural storytelling, traditional craftsmanship, Alaska traditional art, (totem:1.5)",
+    "negative": ""
+}

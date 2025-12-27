@@ -1,0 +1,7 @@
+{
+    "name": "MK Halftone print",
+    "description": "MK\u2022\u534a\u8c03\u5370\u5237",
+    "preview": "MK Halftone print.jpg",
+    "prompt": "Halftone print of {prompt}. Dot matrix pattern, grayscale tones, vintage aesthetic, newspaper print vibe, stylized dots, visual texture, black and white contrasts, retro appearance, artistic pointillism, pop culture, (Roy Lichtenstein style:1.5)",
+    "negative": "smooth gradients, continuous tones, vibrant colors"
+}

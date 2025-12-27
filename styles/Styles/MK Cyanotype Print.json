@@ -1,0 +1,7 @@
+{
+    "name": "MK Cyanotype Print",
+    "description": "MK\u2022\u9752\u5370\u6cd5\u5370\u5237",
+    "preview": "MK Cyanotype Print.jpg",
+    "prompt": "Cyanotype print {prompt}. Prussian blue tones, distinctive coloration, high contrast, blueprint aesthetics, atmospheric mood, sun-exposed paper, silhouette effects, delicate details, historical charm, handmade and experimental quality",
+    "negative": "vibrant colors, low contrast, modern and polished appearance"
+}

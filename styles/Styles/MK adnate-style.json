@@ -1,0 +1,7 @@
+{
+    "name": "MK adnate-style",
+    "description": "MK\u2022\u963f\u5fb7\u5185\u7279\u8857\u5934\u827a\u672f",
+    "preview": "MK adnate-style.jpg",
+    "prompt": "Painting by Adnate {prompt}. realistic portraits, street art, large-scale murals, subdued color palette, social narratives",
+    "negative": "abstract, vibrant colors, small-scale art"
+}

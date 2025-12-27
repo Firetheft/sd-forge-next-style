@@ -1,0 +1,7 @@
+{
+    "name": "mre-sumi-e-symbolic",
+    "description": "MRE\u2022\u5199\u610f\u6c34\u58a8",
+    "preview": "mre-sumi-e-symbolic.jpg",
+    "prompt": "big long brushstrokes of deep black sumi-e turning into symbolic painting of {prompt}. master level raw art. best quality, high resolution",
+    "negative": "photography, rendered. low quality, low resolution"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Pop Art 2",
+    "description": "\u6ce2\u666e\u827a\u672f",
+    "preview": "Pop Art 2.jpg",
+    "prompt": "Pop Art, {prompt}, vivid colors, flat color, 2D, strong lines, Pop Art",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, photo, realistic"
+}

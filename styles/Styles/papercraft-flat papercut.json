@@ -1,0 +1,7 @@
+{
+    "name": "papercraft-flat papercut",
+    "description": "\u7eb8\u827a\u2022\u5e73\u9762\u7eb8\u96d5",
+    "preview": "papercraft-flat papercut.jpg",
+    "prompt": "flat papercut style {prompt}, silhouette, clean cuts, paper, sharp edges, minimalist, color block",
+    "negative": "3D, high detail, noise, grainy, blurry, painting, drawing, photo, disfigured"
+}

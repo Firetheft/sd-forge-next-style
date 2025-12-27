@@ -1,0 +1,7 @@
+{
+    "name": "artstyle-hyperrealism",
+    "description": "\u827a\u672f\u98ce\u683c\u2022\u8d85\u5199\u5b9e\u4e3b\u4e49",
+    "preview": "artstyle-hyperrealism.jpg",
+    "prompt": "hyperrealistic art {prompt}, extremely high-resolution details, photographic, realism pushed to extreme, fine texture, incredibly lifelike",
+    "negative": "simplified, abstract, unrealistic, impressionistic, low resolution"
+}

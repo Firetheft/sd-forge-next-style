@@ -1,0 +1,7 @@
+{
+    "name": "Terragen",
+    "description": "\u666f\u89c2",
+    "preview": "Terragen.jpg",
+    "prompt": "Terragen, {prompt}, beautiful massive landscape, epic scenery, Terragen",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

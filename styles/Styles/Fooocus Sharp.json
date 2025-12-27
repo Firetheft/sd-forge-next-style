@@ -1,0 +1,7 @@
+{
+    "name": "Fooocus Sharp",
+    "description": "Fooocus \u6e05\u6670",
+    "preview": "Fooocus Sharp.jpg",
+    "prompt": "cinematic still {prompt}, emotional, harmonious, vignette, 4k epic detailed, shot on kodak, 35mm photo, sharp focus, high budget, cinemascope, moody, epic, gorgeous, film grain, grainy",
+    "negative": "anime, cartoon, graphic, (blur, blurry, bokeh), text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured"
+}

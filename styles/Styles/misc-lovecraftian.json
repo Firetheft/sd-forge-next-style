@@ -1,0 +1,7 @@
+{
+    "name": "misc-lovecraftian",
+    "description": "\u6742\u9879\u2022\u514b\u82cf\u9c81\u795e\u8bdd",
+    "preview": "misc-lovecraftian.jpg",
+    "prompt": "lovecraftian horror {prompt}, eldritch, cosmic horror, unknown, mysterious, surreal, highly detailed",
+    "negative": "light-hearted, mundane, familiar, simplistic, realistic"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "artstyle-abstract expressionism",
+    "description": "\u827a\u672f\u98ce\u683c\u2022\u62bd\u8c61\u8868\u73b0\u4e3b\u4e49",
+    "preview": "artstyle-abstract expressionism.jpg",
+    "prompt": "abstract expressionist painting {prompt}, energetic brushwork, bold colors, abstract forms, expressive, emotional",
+    "negative": "realistic, photorealistic, low contrast, plain, simple, monochrome"
+}

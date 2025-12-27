@@ -1,0 +1,7 @@
+{
+    "name": "MK fayum-portrait",
+    "description": "MK\u2022\u6cd5\u5c24\u59c6\u8096\u50cf\u753b",
+    "preview": "MK fayum-portrait.jpg",
+    "prompt": "Fayum portrait {prompt}. encaustic painting, realistic facial features, warm earth tones, serene expressions, ancient Egyptian influences",
+    "negative": "abstract, vibrant colors, exaggerated features, modern"
+}

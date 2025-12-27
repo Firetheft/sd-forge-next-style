@@ -1,0 +1,7 @@
+{
+    "name": "futuristic-futuristic",
+    "description": "\u672a\u6765\u6d3e\u2022\u672a\u6765\u6d3e",
+    "preview": "futuristic-futuristic.jpg",
+    "prompt": "futuristic style {prompt}, sleek, modern, ultramodern, high tech, detailed",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, vintage, antique"
+}

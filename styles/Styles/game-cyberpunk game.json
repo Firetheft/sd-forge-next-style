@@ -1,0 +1,7 @@
+{
+    "name": "game-cyberpunk game",
+    "description": "\u6e38\u620f\u2022\u8d5b\u535a\u670b\u514b\u6e38\u620f",
+    "preview": "game-cyberpunk game.jpg",
+    "prompt": "cyberpunk game style {prompt}, neon, dystopian, futuristic, digital, vibrant, detailed, high contrast, reminiscent of cyberpunk genre video games",
+    "negative": "historical, natural, rustic, low detailed"
+}

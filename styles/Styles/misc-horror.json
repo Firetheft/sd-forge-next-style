@@ -1,0 +1,7 @@
+{
+    "name": "misc-horror",
+    "description": "\u6742\u9879\u2022\u6050\u6016",
+    "preview": "misc-horror.jpg",
+    "prompt": "horror-themed {prompt}, eerie, unsettling, dark, spooky, suspenseful, grim, highly detailed",
+    "negative": "cheerful, bright, vibrant, light-hearted, cute"
+}

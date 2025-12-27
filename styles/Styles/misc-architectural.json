@@ -1,0 +1,7 @@
+{
+    "name": "misc-architectural",
+    "description": "\u6742\u9879\u2022\u5efa\u7b51\u98ce\u683c",
+    "preview": "misc-architectural.jpg",
+    "prompt": "architectural style {prompt}, clean lines, geometric shapes, minimalist, modern, architectural drawing, highly detailed",
+    "negative": "curved lines, ornate, baroque, abstract, grunge"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Graffiti Art",
+    "description": "\u53cd\u53db\u6027\u6d82\u9e26\u827a\u672f",
+    "preview": "Graffiti Art.jpg",
+    "prompt": "Graffiti Art Style, {prompt}, dynamic, dramatic, vibrant colors, graffiti art style",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

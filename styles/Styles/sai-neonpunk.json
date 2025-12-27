@@ -1,0 +1,7 @@
+{
+    "name": "sai-neonpunk",
+    "description": "SAI\u2022\u9713\u8679\u670b\u514b",
+    "preview": "sai-neonpunk.jpg",
+    "prompt": "neonpunk style {prompt}, cyberpunk, vaporwave, neon, vibes, vibrant, stunningly beautiful, crisp, detailed, sleek, ultramodern, magenta highlights, dark purple shadows, high contrast, cinematic, ultra detailed, intricate, professional",
+    "negative": "painting, drawing, illustration, glitch, deformed, mutated, cross-eyed, ugly, disfigured"
+}

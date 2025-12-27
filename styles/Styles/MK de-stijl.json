@@ -1,0 +1,7 @@
+{
+    "name": "MK de-stijl",
+    "description": "MK\u2022\u5fb7\u00b7\u65af\u6cf0\u5c14\u827a\u672f",
+    "preview": "MK de-stijl.jpg",
+    "prompt": "De Stijl Art {prompt}. neoplasticism, primary colors, geometric abstraction, horizontal and vertical lines, simplicity, harmony, utopian ideals",
+    "negative": "complex patterns, muted colors, ornate elements, asymmetry"
+}

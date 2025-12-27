@@ -1,0 +1,7 @@
+{
+    "name": "Silhouette Art",
+    "description": "\u526a\u5f71\u827a\u672f",
+    "preview": "Silhouette Art.jpg",
+    "prompt": "Silhouette Art, {prompt}, high contrast, well defined, Silhouette Art",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "photo-hdr",
+    "description": "\u6444\u5f71\u2022\u9ad8\u52a8\u6001\u8303\u56f4",
+    "preview": "photo-hdr.jpg",
+    "prompt": "HDR photo of {prompt}, High dynamic range, vivid, rich details, clear shadows and highlights, realistic, intense, enhanced contrast, highly detailed",
+    "negative": "flat, low contrast, oversaturated, underexposed, overexposed, blurred, noisy"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "mre-cinematic-dynamic",
+    "description": "MRE\u2022\u7535\u5f71\u52a8\u6001",
+    "preview": "mre-cinematic-dynamic.jpg",
+    "prompt": "epic cinematic shot of dynamic {prompt} in motion. main subject of high budget action movie. raw photo, motion blur. best quality, high resolution",
+    "negative": "static, still, motionless, sluggish. drawing, painting, illustration, rendered. low budget. low quality, low resolution"
+}

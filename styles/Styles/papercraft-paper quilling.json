@@ -1,0 +1,7 @@
+{
+    "name": "papercraft-paper quilling",
+    "description": "\u7eb8\u827a\u2022\u7eb8\u5377",
+    "preview": "papercraft-paper quilling.jpg",
+    "prompt": "paper quilling art of {prompt}, intricate, delicate, curling, rolling, shaping, coiling, loops, 3D, dimensional, ornamental",
+    "negative": "photo, painting, drawing, 2D, flat, deformed, noisy, blurry"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Knolling Photography",
+    "description": "\u6392\u5217\u6444\u5f71",
+    "preview": "Knolling Photography.jpg",
+    "prompt": "Knolling Photography, {prompt}, flat lay photography, object arrangment, knolling photography",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

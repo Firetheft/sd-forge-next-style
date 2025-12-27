@@ -1,0 +1,7 @@
+{
+    "name": "MK Gyotaku",
+    "description": "MK\u2022\u9c7c\u62d3\u5de5\u827a",
+    "preview": "MK Gyotaku.jpg",
+    "prompt": "Gyotaku {prompt}. Fish impressions, realistic details, ink rubbings, textured surfaces, traditional Japanese art form, nature-inspired compositions, artistic representation of marine life, black and white contrasts, cultural significance",
+    "negative": "photography"
+}

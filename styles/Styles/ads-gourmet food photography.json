@@ -1,0 +1,7 @@
+{
+    "name": "ads-gourmet food photography",
+    "description": "\u5e7f\u544a\u2022\u7f8e\u98df\u6444\u5f71",
+    "preview": "ads-gourmet food photography.jpg",
+    "prompt": "gourmet food photo of {prompt}, soft natural lighting, macro details, vibrant colors, fresh ingredients, glistening textures, bokeh background, styled plating, wooden tabletop, garnished, tantalizing, editorial quality",
+    "negative": "cartoon, anime, sketch, grayscale, dull, overexposed, cluttered, messy plate, deformed"
+}

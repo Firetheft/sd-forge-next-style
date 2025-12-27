@@ -1,0 +1,7 @@
+{
+    "name": "mre-dark-cyberpunk",
+    "description": "MRE\u2022\u9ed1\u6697\u8d5b\u535a\u670b\u514b",
+    "preview": "mre-dark-cyberpunk.jpg",
+    "prompt": "dark cyberpunk illustration of brutal {prompt} in a world without hope, ruled by ruthless criminal corporations. best quality, high resolution",
+    "negative": "low quality, low resolution"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "futuristic-cybernetic robot",
+    "description": "\u672a\u6765\u6d3e\u2022\u8d5b\u535a\u673a\u5668\u4eba",
+    "preview": "futuristic-cybernetic robot.jpg",
+    "prompt": "cybernetic robot {prompt}, android, AI, machine, metal, wires, tech, futuristic, highly detailed",
+    "negative": "organic, natural, human, sketch, watercolor, low contrast"
+}

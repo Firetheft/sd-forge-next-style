@@ -1,0 +1,7 @@
+{
+    "name": "mre-brave-art",
+    "description": "MRE\u2022\u52c7\u6562\u7684\u827a\u672f",
+    "preview": "mre-brave-art.jpg",
+    "prompt": "brave, shocking, and brutally true art showing {prompt}. inspired by courage and unlimited creativity. truth found in chaos. best quality, high resolution",
+    "negative": "low quality, low resolution"
+}

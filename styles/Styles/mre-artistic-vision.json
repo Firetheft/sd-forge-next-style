@@ -1,0 +1,7 @@
+{
+    "name": "mre-artistic-vision",
+    "description": "MRE\u2022\u827a\u672f\u89c6\u89c9",
+    "preview": "mre-artistic-vision.jpg",
+    "prompt": "powerful artistic vision of {prompt}. breathtaking masterpiece made by great artist. best quality, high resolution",
+    "negative": "insignificant, flawed, made by bad artist. low quality, low resolution"
+}

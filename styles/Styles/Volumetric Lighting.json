@@ -1,0 +1,7 @@
+{
+    "name": "Volumetric Lighting",
+    "description": "\u4f53\u79ef\u5149",
+    "preview": "Volumetric Lighting.jpg",
+    "prompt": "Volumetric Lighting, {prompt}, light depth, dramatic atmospheric lighting, Volumetric Lighting",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Colored Pencil Art",
+    "description": "\u5f69\u8272\u94c5\u7b14\u827a\u672f",
+    "preview": "Colored Pencil Art.jpg",
+    "prompt": "Colored Pencil Art, {prompt}, colored pencil strokes, light color, visible paper texture, colored pencil art",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

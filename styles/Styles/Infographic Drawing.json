@@ -1,0 +1,7 @@
+{
+    "name": "Infographic Drawing",
+    "description": "\u4fe1\u606f\u56fe\u7ed8\u5236",
+    "preview": "Infographic Drawing.jpg",
+    "prompt": "Infographic Drawing, {prompt}, diagram, infographic",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

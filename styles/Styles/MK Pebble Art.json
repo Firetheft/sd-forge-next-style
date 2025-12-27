@@ -1,0 +1,7 @@
+{
+    "name": "MK Pebble Art",
+    "description": "MK\u2022\u5375\u77f3\u827a\u672f",
+    "preview": "MK Pebble Art.jpg",
+    "prompt": "a sculpture made of peebles, {prompt}. Pebble art style, natural materials, textured surfaces, balanced compositions, organic forms, harmonious arrangements, tactile and 3D effects, beach-inspired aesthetic, creative storytelling, artisanal craftsmanship",
+    "negative": "non-natural materials, lack of textured surfaces, imbalanced compositions, absence of organic forms, non-tactile appearance"
+}

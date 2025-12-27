@@ -1,0 +1,7 @@
+{
+    "name": "MK Palekh",
+    "description": "MK\u2022\u5df4\u5217\u8d6b\u827a\u672f",
+    "preview": "MK Palekh.jpg",
+    "prompt": "Palekh art {prompt}. Miniature paintings, intricate details, vivid colors, folkloric themes, lacquer finish, storytelling compositions, symbolic elements, Russian folklore influence, cultural and historical significance",
+    "negative": "large-scale paintings"
+}

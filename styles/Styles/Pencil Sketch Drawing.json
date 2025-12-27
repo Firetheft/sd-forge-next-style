@@ -1,0 +1,7 @@
+{
+    "name": "Pencil Sketch Drawing",
+    "description": "\u94c5\u7b14\u7d20\u63cf",
+    "preview": "Pencil Sketch Drawing.jpg",
+    "prompt": "Pencil Sketch Drawing, {prompt}, black and white drawing, graphite drawing",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

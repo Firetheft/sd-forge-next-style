@@ -1,0 +1,7 @@
+{
+    "name": "MK Ukiyo-e",
+    "description": "MK\u2022\u6d6e\u4e16\u7ed8",
+    "preview": "MK Ukiyo-e.jpg",
+    "prompt": "Ukiyo-e {prompt}. Woodblock prints, vibrant colors, intricate details, depictions of landscapes, kabuki actors, beautiful women, cultural scenes, traditional Japanese art, artistic craftsmanship, historical significance",
+    "negative": "absence of woodblock prints, muted colors, lack of intricate details, non-traditional Japanese themes, absence of cultural scenes"
+}

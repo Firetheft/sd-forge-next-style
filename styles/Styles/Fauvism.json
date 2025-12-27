@@ -1,0 +1,7 @@
+{
+    "name": "Fauvism",
+    "description": "\u91ce\u517d\u6d3e",
+    "preview": "Fauvism.jpg",
+    "prompt": "Fauvism Art, {prompt}, painterly, bold colors, textured brushwork, fauvism art",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

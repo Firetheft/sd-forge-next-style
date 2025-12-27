@@ -1,0 +1,7 @@
+{
+    "name": "artstyle-constructivist",
+    "description": "\u827a\u672f\u98ce\u683c\u2022\u6784\u6210\u4e3b\u4e49",
+    "preview": "artstyle-constructivist.jpg",
+    "prompt": "constructivist style {prompt}, geometric shapes, bold colors, dynamic composition, propaganda art style",
+    "negative": "realistic, photorealistic, low contrast, plain, simple, abstract expressionism"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "MK dayak-art",
+    "description": "MK\u2022\u5370\u5c3c\u8fbe\u96c5\u514b\u827a\u672f\u96d5\u5851",
+    "preview": "MK dayak-art.jpg",
+    "prompt": "Dayak art sculpture of {prompt}. intricate patterns, nature-inspired motifs, vibrant colors, traditional craftsmanship, cultural symbolism, storytelling",
+    "negative": "minimalist, monochromatic, modern"
+}

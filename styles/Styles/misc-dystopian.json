@@ -1,0 +1,7 @@
+{
+    "name": "misc-dystopian",
+    "description": "\u6742\u9879\u2022\u53cd\u4e4c\u6258\u90a6",
+    "preview": "misc-dystopian.jpg",
+    "prompt": "dystopian style {prompt}, bleak, post-apocalyptic, somber, dramatic, highly detailed",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, cheerful, optimistic, vibrant, colorful"
+}

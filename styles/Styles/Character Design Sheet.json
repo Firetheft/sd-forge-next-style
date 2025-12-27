@@ -1,0 +1,7 @@
+{
+    "name": "Character Design Sheet",
+    "description": "\u89d2\u8272\u8bbe\u8ba1\u8868",
+    "preview": "Character Design Sheet.jpg",
+    "prompt": "Character Design Sheet, {prompt}, character reference sheet, character turn around",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

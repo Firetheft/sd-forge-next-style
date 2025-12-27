@@ -1,0 +1,7 @@
+{
+    "name": "Neo-Impressionism",
+    "description": "\u65b0\u5370\u8c61\u4e3b\u4e49",
+    "preview": "Neo-Impressionism.jpg",
+    "prompt": "Neo-Impressionism, {prompt}, tiny dabs of color, Pointillism, painterly, Neo-Impressionism",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, photograph, realistic"
+}

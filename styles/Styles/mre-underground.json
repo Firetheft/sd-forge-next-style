@@ -1,0 +1,7 @@
+{
+    "name": "mre-underground",
+    "description": "MRE\u2022\u5730\u4e0b",
+    "preview": "mre-underground.jpg",
+    "prompt": "uncanny caliginous vision of {prompt}, created by remarkable underground artist. best quality, high resolution. raw and brutal art, careless but impressive style. inspired by darkness and chaos",
+    "negative": "photography, mainstream, civilized. low quality, low resolution"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "misc-metropolis",
+    "description": "\u6742\u9879\u2022\u5927\u90fd\u5e02\u98ce\u683c",
+    "preview": "misc-metropolis.jpg",
+    "prompt": "metropolis-themed {prompt}, urban, cityscape, skyscrapers, modern, futuristic, highly detailed",
+    "negative": "rural, natural, rustic, historical, simple"
+}

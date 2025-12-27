@@ -1,0 +1,7 @@
+{
+    "name": "photo-tilt-shift",
+    "description": "\u6444\u5f71\u2022\u79fb\u8f74",
+    "preview": "photo-tilt-shift.jpg",
+    "prompt": "tilt-shift photo of {prompt}, selective focus, miniature effect, blurred background, highly detailed, vibrant, perspective control",
+    "negative": "blurry, noisy, deformed, flat, low contrast, unrealistic, oversaturated, underexposed"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "photo-film noir",
+    "description": "\u6444\u5f71\u2022\u9ed1\u8272\u7535\u5f71\u98ce\u683c",
+    "preview": "photo-film noir.jpg",
+    "prompt": "film noir style {prompt}, monochrome, high contrast, dramatic shadows, 1940s style, mysterious, cinematic",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, vibrant, colorful"
+}

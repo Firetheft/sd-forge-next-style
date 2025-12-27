@@ -1,0 +1,7 @@
+{
+    "name": "artstyle-psychedelic",
+    "description": "\u827a\u672f\u98ce\u683c\u2022\u8ff7\u5e7b",
+    "preview": "artstyle-psychedelic.jpg",
+    "prompt": "psychedelic style {prompt}, vibrant colors, swirling patterns, abstract forms, surreal, trippy",
+    "negative": "monochrome, black and white, low contrast, realistic, photorealistic, plain, simple"
+}

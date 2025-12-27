@@ -1,0 +1,7 @@
+{
+    "name": "Faded Polaroid Photo",
+    "description": "\u892a\u8272\u7684\u5b9d\u4e3d\u6765\u7167\u7247",
+    "preview": "Faded Polaroid Photo.jpg",
+    "prompt": "Faded Polaroid Photo, {prompt}, analog, old faded photo, old polaroid",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, vibrant, colorful"
+}

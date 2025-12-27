@@ -1,0 +1,7 @@
+{
+    "name": "MK mosaic",
+    "description": "MK\u2022\u9a6c\u8d5b\u514b",
+    "preview": "MK mosaic.jpg",
+    "prompt": "mosaic style {prompt}. fragmented, assembled, colorful, highly detailed",
+    "negative": "whole, unbroken, monochrome"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Tranquil Relaxing Atmosphere",
+    "description": "\u5b81\u9759\u653e\u677e\u7684\u6c1b\u56f4",
+    "preview": "Tranquil Relaxing Atmosphere.jpg",
+    "prompt": "Tranquil Relaxing Atmosphere, {prompt}, calming style, soothing colors, peaceful, idealic, Tranquil Relaxing Atmosphere",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, oversaturated"
+}

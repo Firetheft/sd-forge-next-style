@@ -1,0 +1,7 @@
+{
+    "name": "mre-sumi-e-detailed",
+    "description": "MRE\u2022\u5de5\u7b14\u6c34\u58a8",
+    "preview": "mre-sumi-e-detailed.jpg",
+    "prompt": "highly detailed black sumi-e painting of {prompt}. in-depth study of perfection, created by a master. best quality, high resolution",
+    "negative": "low quality, low resolution"
+}

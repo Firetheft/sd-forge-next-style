@@ -1,0 +1,7 @@
+{
+    "name": "Japanese Ink Drawing",
+    "description": "\u65e5\u672c\u58a8\u753b",
+    "preview": "Japanese Ink Drawing.jpg",
+    "prompt": "Japanese Ink Drawing, {prompt}, ink drawing, inkwash, Japanese Ink Drawing",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, colorful, vibrant"
+}

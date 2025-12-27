@@ -1,0 +1,7 @@
+{
+    "name": "MK Lite Brite Art",
+    "description": "MK\u2022\u4eae\u5f69\u827a\u672f",
+    "preview": "MK Lite Brite Art.jpg",
+    "prompt": "Lite Brite art {prompt}. Luminous and colorful designs, pixelated compositions, retro aesthetic, glowing effects, creative patterns, interactive and playful, nostalgic charm, vibrant and dynamic arrangements",
+    "negative": "monochromatic"
+}

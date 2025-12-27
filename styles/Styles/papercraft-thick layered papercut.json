@@ -1,0 +1,7 @@
+{
+    "name": "papercraft-thick layered papercut",
+    "description": "\u7eb8\u827a\u2022\u539a\u5c42\u53e0\u52a0\u526a\u7eb8",
+    "preview": "papercraft-thick layered papercut.jpg",
+    "prompt": "thick layered papercut art of {prompt}, deep 3D, volumetric, dimensional, depth, thick paper, high stack, heavy texture, tangible layers",
+    "negative": "2D, flat, thin paper, low stack, smooth texture, painting, drawing, photo, deformed"
+}

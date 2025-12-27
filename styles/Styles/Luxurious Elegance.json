@@ -1,0 +1,7 @@
+{
+    "name": "Luxurious Elegance",
+    "description": "\u8c6a\u534e\u4f18\u96c5",
+    "preview": "Luxurious Elegance.jpg",
+    "prompt": "Luxurious Elegance, {prompt}, extravagant, ornate, designer, opulent, picturesque, lavish",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

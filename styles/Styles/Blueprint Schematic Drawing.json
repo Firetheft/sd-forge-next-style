@@ -1,0 +1,7 @@
+{
+    "name": "Blueprint Schematic Drawing",
+    "description": "\u5de5\u7a0b\u84dd\u56fe",
+    "preview": "Blueprint Schematic Drawing.jpg",
+    "prompt": "Blueprint Schematic Drawing, {prompt}, technical drawing, blueprint, schematic",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

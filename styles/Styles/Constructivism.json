@@ -1,0 +1,7 @@
+{
+    "name": "Constructivism",
+    "description": "\u5efa\u6784\u4e3b\u4e49",
+    "preview": "Constructivism.jpg",
+    "prompt": "Constructivism Art, {prompt}, minimalistic, geometric forms, constructivism art",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

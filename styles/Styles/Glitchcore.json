@@ -1,0 +1,7 @@
+{
+    "name": "Glitchcore",
+    "description": "\u6545\u969c\u6838\u5fc3",
+    "preview": "Glitchcore.jpg",
+    "prompt": "Glitchcore Art Style, {prompt}, dynamic, dramatic, distorted, vibrant colors, glitchcore art style",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

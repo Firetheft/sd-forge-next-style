@@ -1,0 +1,7 @@
+{
+    "name": "ads-corporate",
+    "description": "\u5e7f\u544a\u2022\u4f01\u4e1a",
+    "preview": "ads-corporate.jpg",
+    "prompt": "corporate branding style {prompt}, professional, clean, modern, sleek, minimalist, business-oriented, highly detailed",
+    "negative": "noisy, blurry, grungy, sloppy, cluttered, disorganized"
+}

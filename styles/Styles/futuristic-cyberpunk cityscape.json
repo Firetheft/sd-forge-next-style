@@ -1,0 +1,7 @@
+{
+    "name": "futuristic-cyberpunk cityscape",
+    "description": "\u672a\u6765\u6d3e\u2022\u8d5b\u535a\u670b\u514b\u57ce\u5e02\u98ce\u666f",
+    "preview": "futuristic-cyberpunk cityscape.jpg",
+    "prompt": "cyberpunk cityscape {prompt}, neon lights, dark alleys, skyscrapers, futuristic, vibrant colors, high contrast, highly detailed",
+    "negative": "natural, rural, deformed, low contrast, black and white, sketch, watercolor"
+}

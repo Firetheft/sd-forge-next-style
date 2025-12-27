@@ -1,0 +1,7 @@
+{
+    "name": "Impressionism",
+    "description": "\u5370\u8c61\u4e3b\u4e49",
+    "preview": "Impressionism.jpg",
+    "prompt": "Impressionism, {prompt}, painterly, small brushstrokes, visible brushstrokes, impressionistic style",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

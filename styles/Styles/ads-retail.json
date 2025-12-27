@@ -1,0 +1,7 @@
+{
+    "name": "ads-retail",
+    "description": "\u5e7f\u544a\u2022\u96f6\u552e",
+    "preview": "ads-retail.jpg",
+    "prompt": "retail packaging style {prompt}, vibrant, enticing, commercial, product-focused, eye-catching, professional, highly detailed",
+    "negative": "noisy, blurry, amateurish, sloppy, unattractive"
+}

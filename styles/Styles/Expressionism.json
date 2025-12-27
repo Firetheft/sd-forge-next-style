@@ -1,0 +1,7 @@
+{
+    "name": "Expressionism",
+    "description": "\u8868\u73b0\u4e3b\u4e49",
+    "preview": "Expressionism.jpg",
+    "prompt": "Expressionism Art Style, {prompt}, movement, contrast, emotional, exaggerated forms, expressionism art style",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "mre-ancient-illustration",
+    "description": "MRE\u2022\u53e4\u4ee3\u63d2\u56fe",
+    "preview": "mre-ancient-illustration.jpg",
+    "prompt": "sublime ancient illustration of {prompt}, predating human civilization. crude and simple, but also surprisingly beautiful artwork, made by genius primeval artist. best quality, high resolution",
+    "negative": "low quality, low resolution"
+}

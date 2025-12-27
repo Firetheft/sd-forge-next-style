@@ -1,0 +1,7 @@
+{
+    "name": "MK vintage-airline-poster",
+    "description": "MK\u2022\u590d\u53e4\u822a\u7a7a\u6d77\u62a5",
+    "preview": "MK vintage-airline-poster.jpg",
+    "prompt": "vintage airline poster {prompt}. classic aviation fonts, pastel colors, elegant aircraft illustrations, scenic destinations, distressed textures, retro travel allure",
+    "negative": "modern fonts, bold colors, hyper-realistic, sleek design"
+}

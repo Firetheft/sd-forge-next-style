@@ -1,0 +1,7 @@
+{
+    "name": "ads-luxury",
+    "description": "\u5e7f\u544a\u2022\u5962\u4f88\u54c1",
+    "preview": "ads-luxury.jpg",
+    "prompt": "luxury product style {prompt}, elegant, sophisticated, high-end, luxurious, professional, highly detailed",
+    "negative": "cheap, noisy, blurry, unattractive, amateurish"
+}

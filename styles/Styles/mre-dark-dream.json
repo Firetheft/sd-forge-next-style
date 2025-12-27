@@ -1,0 +1,7 @@
+{
+    "name": "mre-dark-dream",
+    "description": "MRE\u2022\u9ed1\u6697\u68a6\u5883",
+    "preview": "mre-dark-dream.jpg",
+    "prompt": "dark and unsettling dream showing {prompt}. best quality, high resolution. created by genius but depressed mad artist. grim beauty",
+    "negative": "naive, cheerful. comfortable, casual, boring, cliche. low quality, low resolution"
+}

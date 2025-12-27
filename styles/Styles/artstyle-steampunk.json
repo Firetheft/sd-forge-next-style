@@ -1,0 +1,7 @@
+{
+    "name": "artstyle-steampunk",
+    "description": "\u827a\u672f\u98ce\u683c\u2022\u84b8\u6c7d\u670b\u514b",
+    "preview": "artstyle-steampunk.jpg",
+    "prompt": "steampunk style {prompt}, antique, mechanical, brass and copper tones, gears, intricate, detailed",
+    "negative": "deformed, glitch, noisy, low contrast, anime, photorealistic"
+}

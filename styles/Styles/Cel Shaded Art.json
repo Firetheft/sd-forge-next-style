@@ -1,0 +1,7 @@
+{
+    "name": "Cel Shaded Art",
+    "description": "\u6e10\u53d8\u9634\u5f71\u827a\u672f",
+    "preview": "Cel Shaded Art.jpg",
+    "prompt": "Cel Shaded Art, {prompt}, 2D, flat color, toon shading, cel shaded style",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

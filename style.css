@@ -1,0 +1,1359 @@
+/* 颜色设置 */
+
+/* 1. 核心变量 */
+:root {
+  /* 默认主色 (Lime Green) */
+  --ctp-accent: #00FFC9; 
+  /* 默认辅色 (Dark Grey) */
+  --ctp-minor: #3d3e4f; 
+}
+
+/* 2. 浅色主题 (Light Theme) - 适配 Forge 浅色模式 */
+/* 对应 Catppuccin Latte 配色方案 */
+body, :root {
+  /* 基础调色板 (浅色版) */
+  --ctp-rosewater: #dc8a78;
+  --ctp-flamingo: #dd7878;
+  --ctp-pink: #ea76cb;
+  --ctp-mauve: #8839ef;
+  --ctp-red: #d20f39;
+  --ctp-maroon: #e64553;
+  --ctp-peach: #fe640b;
+  --ctp-yellow: #df8e1d;
+  --ctp-green: #40a02b;
+  --ctp-teal: #179299;
+  --ctp-sky: #04a5e5;
+  --ctp-sapphire: #209fb5;
+  --ctp-lavender: #7287fd;
+  --ctp-blue: #1e66f5;
+  
+  /* 结构颜色 (浅色背景/深色文字) */
+  --ctp-text: #4c4f69;
+  --ctp-subtext1: #5c5f77;
+  --ctp-subtext0: #6c6f85;
+  --ctp-overlay2: #7c7f93;
+  --ctp-overlay1: #8c8fa1;
+  --ctp-overlay0: #9ca0b0;
+  --ctp-surface2: #acb0be;
+  --ctp-surface1: #bcc0cc;
+  --ctp-surface0: #ccd0da;
+  --ctp-base: #eff1f5;     /* 浅色内容背景 */
+  --ctp-mantle: #e6e9ef;   /* 浅色主体背景 */
+  --ctp-crust: #dce0e8;
+  --shadow: #b0b0b0;       /* 浅色阴影 */
+  --ctp-prompt: #4c4f69;
+  
+  /* WebUI/Forge 变量映射 (浅色) */
+  color-scheme: light;
+  --body-background-fill: var(--background-fill-primary);
+  --body-text-color: var(--ctp-text);
+  --color-accent-soft: var(--ctp-surface0);
+  --background-fill-primary: var(--ctp-mantle);
+  --background-fill-secondary: var(--ctp-base);
+  --border-color-accent: var(--ctp-surface2);
+  --border-color-primary: var(--ctp-surface0);
+  --link-text-color-active: var(--ctp-text);
+  --link-text-color: var(--ctp-text);
+  --link-text-color-hover: var(--ctp-accent);
+  --link-text-color-visited: var(--ctp-text);
+  --body-text-color-subdued: var(--ctp-subtext0);
+  --shadow-spread: 1px;
+  --block-background-fill: var(--ctp-mantle);
+  --block-border-color: var(--border-color-primary);
+  --block_border_width: None;
+  --block-info-text-color: var(--body-text-color-subdued);
+  --block-label-background-fill: var(--background-fill-secondary);
+  --block-label-border-color: var(--border-color-primary);
+  --block_label_border_width: None;
+  --block-label-text-color: var(--ctp-text);
+  --block_shadow: None;
+  --block_title_background_fill: None;
+  --block_title_border_color: None;
+  --block_title_border_width: None;
+  --block-title-text-color: var(--ctp-text);
+  --panel-background-fill: var(--background-fill-secondary);
+  --panel-border-color: var(--border-color-primary);
+  --panel_border_width: None;
+  --checkbox-background-color: var(--ctp-surface1);
+  --checkbox-background-color-focus: var(--checkbox-background-color);
+  --checkbox-background-color-hover: var(--checkbox-background-color);
+  --checkbox-background-color-selected: var(--ctp-minor);
+  --checkbox-border-color: var(--ctp-surface2);
+  --checkbox-border-color-focus: var(--ctp-overlay0);
+  --checkbox-border-color-hover: var(--ctp-surface2);
+  --checkbox-border-color-selected: var(--ctp-overlay0);
+  --checkbox-border-width: var(--input-border-width);
+  --checkbox-label-background-fill: var(--ctp-surface0);
+  --checkbox-label-background-fill-hover: var(--ctp-surface0);
+  --checkbox-label-background-fill-selected: var(--checkbox-label-background-fill);
+  --checkbox-label-border-color: var(--border-color-primary);
+  --checkbox-label-border-color-hover: var(--checkbox-label-border-color);
+  --checkbox-label-border-width: var(--input-border-width);
+  --checkbox-label-text-color: var(--body-text-color);
+  --checkbox-label-text-color-selected: var(--checkbox-label-text-color);
+  --error-background-fill: var(--background-fill-primary);
+  --error-border-color: var(--border-color-primary);
+  --error_border_width: None;
+  --error-text-color: var(--ctp-red);
+  --input-background-fill: var(--ctp-base);
+  --input-background-fill-focus: var(--input-background-fill);
+  --input-background-fill-hover: var(--input-background-fill);
+  --input-border-color: var(--border-color-primary);
+  --input-border-color-focus: var(--ctp-surface2);
+  --input-border-color-hover: var(--input-border-color);
+  --input_border_width: None;
+  --input-placeholder-color: var(--ctp-overlay0);
+  --input_shadow: None;
+  --input-shadow-focus: 0 0 0 var(--shadow-spread) var(--ctp-surface2), var(--shadow-inset);
+  --loader_color: None;
+  --slider_color: None;
+  --stat-background-fill: linear-gradient(to right, var(--ctp-sky), var(--ctp-blue));
+  --table-border-color: var(--ctp-surface2);
+  --table-even-background-fill: var(--ctp-base);
+  --table-odd-background-fill: var(--ctp-surface0);
+  --table-row-focus: var(--color-accent-soft);
+  --button-border-width: var(--input-border-width);
+  --button-cancel-background-fill: var(--ctp-red);
+  --button-cancel-background-fill-hover: var(--ctp-red);
+  --button-cancel-border-color: var(--ctp-red);
+  --button-cancel-border-color-hover: var(--button-cancel-border-color);
+  --button-cancel-text-color: var(--ctp-base);
+  --button-cancel-text-color-hover: var(--button-cancel-text-color);
+  --button-primary-background-fill: var(--ctp-accent);
+  --button-primary-background-fill-hover: var(--ctp-accent);
+  --button-primary-border-color: var(--ctp-accent);
+  --button-primary-border-color-hover: var(--button-primary-border-color);
+  --button-primary-text-color: var(--ctp-base);
+  --button-primary-text-color-hover: var(--button-primary-text-color);
+  --button-secondary-background-fill: var(--ctp-surface0);
+  --button-secondary-background-fill-hover: var(--ctp-surface0);
+  --button-secondary-border-color: var(--ctp-surface0);
+  --button-secondary-border-color-hover: var(--button-secondary-border-color);
+  --button-secondary-text-color: var(--ctp-text);
+  --button-secondary-text-color-hover: var(--button-secondary-text-color);
+}
+
+/* 3. 深色主题 (Dark Theme) - 适配 Forge 深色模式 */
+/* 当 body 包含 .dark 类时，这里的变量会覆盖上面的浅色变量 */
+body.dark, .dark {
+  /* 基础调色板 (深色版) */
+  --ctp-rosewater: #f5e0dc;
+  --ctp-flamingo: #f2cdcd;
+  --ctp-pink: #f5c2e7;
+  --ctp-mauve: #cba6f7;
+  --ctp-red: #f38ba8;
+  --ctp-maroon: #eba0ac;
+  --ctp-peach: #fab387;
+  --ctp-yellow: #f9e2af;
+  --ctp-green: #a6e3a1;
+  --ctp-teal: #94e2d5;
+  --ctp-sky: #89dceb;
+  --ctp-sapphire: #74c7ec;
+  --ctp-lavender: #b4befe;
+  --ctp-blue: #89b4fa;
+  
+  /* 结构颜色 (深色背景/浅色文字) */
+  --ctp-text: #dadada;
+  --ctp-subtext1: #e5e5e5;
+  --ctp-subtext0: #e5e5e5;
+  --ctp-overlay2: #9399b2;
+  --ctp-overlay1: #7f849c;
+  --ctp-overlay0: #6c7086;
+  --ctp-surface2: #585b70;
+  --ctp-surface1: #2f2f2f;
+  --ctp-surface0: #1d1d1d;
+  --ctp-base: #111111;
+  --ctp-mantle: #0e0e0e; /* 深色背景 */
+  --ctp-crust: #11111b;
+  --shadow: #010409;
+  --ctp-prompt: #7a7a7a;
+  
+  /* WebUI/Forge 变量映射 (深色) */
+  color-scheme: dark;
+  --body-background-fill: var(--background-fill-primary);
+  --body-text-color: var(--ctp-subtext0);
+  --color-accent-soft: var(--ctp-surface0);
+  --background-fill-primary: var(--ctp-mantle);
+  --background-fill-secondary: var(--ctp-base);
+  --border-color-accent: var(--ctp-surface0);
+  --border-color-primary: var(--ctp-surface1);
+  --link-text-color-active: var(--ctp-subtext0);
+  --link-text-color: var(--ctp-subtext0);
+  --link-text-color-hover: var(--ctp-accent);
+  --link-text-color-visited: var(--ctp-subtext0);
+  --body-text-color-subdued: var(--ctp-subtext0);
+  --shadow-spread: 1px;
+  --block-background-fill: var(--ctp-mantle);
+  --block-border-color: var(--border-color-primary);
+  --block_border_width: None;
+  --block-info-text-color: var(--body-text-color-subdued);
+  --block-label-background-fill: var(--background-fill-secondary);
+  --block-label-border-color: var(--border-color-primary);
+  --block_label_border_width: None;
+  --block-label-text-color: var(--ctp-text);
+  --block_shadow: None;
+  --block_title_background_fill: None;
+  --block_title_border_color: None;
+  --block_title_border_width: None;
+  --block-title-text-color: var(--ctp-text);
+  --panel-background-fill: var(--background-fill-secondary);
+  --panel-border-color: var(--border-color-primary);
+  --panel_border_width: None;
+  --checkbox-background-color: var(--ctp-surface1);
+  --checkbox-background-color-focus: var(--checkbox-background-color);
+  --checkbox-background-color-hover: var(--checkbox-background-color);
+  --checkbox-background-color-selected: var(--ctp-minor);
+  --checkbox-border-color: var(--ctp-surface0);
+  --checkbox-border-color-focus: var(--ctp-overlay0);
+  --checkbox-border-color-hover: var(--ctp-surface0);
+  --checkbox-border-color-selected: var(--ctp-overlay0);
+  --checkbox-border-width: var(--input-border-width);
+  --checkbox-label-background-fill: var(--ctp-surface0);
+  --checkbox-label-background-fill-hover: var(--ctp-surface0);
+  --checkbox-label-background-fill-selected: var(--checkbox-label-background-fill);
+  --checkbox-label-border-color: var(--border-color-primary);
+  --checkbox-label-border-color-hover: var(--checkbox-label-border-color);
+  --checkbox-label-border-width: var(--input-border-width);
+  --checkbox-label-text-color: var(--body-text-color);
+  --checkbox-label-text-color-selected: var(--checkbox-label-text-color);
+  --error-background-fill: var(--background-fill-primary);
+  --error-border-color: var(--border-color-primary);
+  --error_border_width: None;
+  --error-text-color: var(--ctp-red);
+  --input-background-fill: var(--ctp-base);
+  --input-background-fill-focus: var(--input-background-fill);
+  --input-background-fill-hover: var(--input-background-fill);
+  --input-border-color: var(--border-color-primary);
+  --input-border-color-focus: var(--ctp-surface2);
+  --input-border-color-hover: var(--input-border-color);
+  --input_border_width: None;
+  --input-placeholder-color: var(--neutral-500);
+  --input_shadow: None;
+  --input-shadow-focus: 0 0 0 var(--shadow-spread) var(--neutral-700), var(--shadow-inset);
+  --loader_color: None;
+  --slider_color: None;
+  --stat-background-fill: linear-gradient(to right, var(--primary-400), var(--primary-600));
+  --table-border-color: var(--neutral-700);
+  --table-even-background-fill: var(--neutral-950);
+  --table-odd-background-fill: var(--neutral-900);
+  --table-row-focus: var(--color-accent-soft);
+  --button-border-width: var(--input-border-width);
+  --button-cancel-background-fill: var(--ctp-red);
+  --button-cancel-background-fill-hover: var(--ctp-red);
+  --button-cancel-border-color: var(--ctp-red);
+  --button-cancel-border-color-hover: var(--button-cancel-border-color);
+  --button-cancel-text-color: var(--ctp-base);
+  --button-cancel-text-color-hover: var(--button-cancel-text-color);
+  --button-primary-background-fill: var(--ctp-accent);
+  --button-primary-background-fill-hover: var(--ctp-accent);
+  --button-primary-border-color: var(--ctp-accent);
+  --button-primary-border-color-hover: var(--button-primary-border-color);
+  --button-primary-text-color: var(--ctp-base);
+  --button-primary-text-color-hover: var(--button-primary-text-color);
+  --button-secondary-background-fill: var(--ctp-surface0);
+  --button-secondary-background-fill-hover: var(--ctp-surface0);
+  --button-secondary-border-color: var(--ctp-surface0);
+  --button-secondary-border-color-hover: var(--button-secondary-border-color);
+  --button-secondary-text-color: var(--ctp-text);
+  --button-secondary-text-color-hover: var(--button-secondary-text-color);
+}
+
+/* 滑动和渐显动画 */
+@keyframes slideUpFadeIn {
+  0% {
+    transform: translateY(25px); /* 从下方开始 */
+    opacity: 0; /* 初始透明 */
+  }
+  100% {
+    transform: translateY(0); /* 位置恢复正常 */
+    opacity: 1; /* 完全显示 */
+  }
+}
+
+/*/ Forge WebUI 全局式样 →→→→→→ /*/
+
+/* 主页背景色设置 */
+body {
+  background: var(--background-fill-primary); /* 如需更换背景颜色请调节--ctp-mantle颜色值 */
+}
+
+/* 按钮悬停颜色设置 */
+.gradio-button:hover {
+  filter: brightness(150%);
+  transition: filter 0.3s ease;  /* 添加平滑过渡 */
+}
+
+/* 选项卡tabs选择颜色设置 */
+.gradio-tabs [aria-selected="true"] {
+  background: var(--ctp-accent);  /* 设置背景颜色，根据需要修改颜色值 */
+  color: var(--ctp-base)!important;  /* 添加字体颜色，根据需要修改颜色值 */
+}
+.gradio-tabs [aria-selected="false"] {
+  color: var(--ctp-text)!important;  /* 添加字体颜色，根据需要修改颜色值 */
+}
+
+/* 下拉菜单颜色设置 */
+.dark .gradio-dropdown ul.options li.item:hover {
+  background: var(--ctp-minor)!important;
+}
+.dark .gradio-dropdown ul.options li.item.selected {
+  background: var(--ctp-accent)!important;
+  filter: brightness(100%);
+  color: var(--ctp-base)!important;
+}
+
+/* 滑条颜色设置 */
+input[type='range'] {
+  background-color: var(--ctp-minor)!important; /* 设置滑条背景色 */
+  background-image: linear-gradient(var(--ctp-accent),var(--ctp-accent))!important;
+  accent-color: var(--ctp-accent)!important;
+}
+
+/* 滑动点样式针对 Chrome、Safari */
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none; /* 重置默认样式 */
+  appearance: none;
+  width: 20px!important; /* 滑动点宽度 */
+  height: 10px!important; /* 滑动点高度 */
+  background: var(--ctp-accent)!important; /* 滑动点颜色 */
+  border-radius: 20%!important; /* 滑动点倒角 */
+  border: 0px solid var(--ctp-minor)!important; /* 边框线宽度及颜色 */
+  margin-top: 3px!important; /* 适当调整滑动点的垂直位置，确保其居中 或者使用（transform: translateY(50%)!important）*/
+}
+
+/* 滑动点样式针对 Firefox */
+input[type='range']::-moz-range-thumb {
+  width: 20px!important; /* 滑动点宽度 */
+  height: 10px!important; /* 滑动点高度 */
+  background: var(--ctp-accent)!important; /* 滑动点颜色 */
+  border-radius: 20%!important; /* 滑动点倒角 */
+  border: 0px solid var(--ctp-minor)!important; /* 边框线宽度及颜色 */
+  margin-top: 3px!important; /* 适当调整滑动点的垂直位置，确保其居中 */
+}
+
+/* 1. 让双滑块内部的 input 恢复透明 */
+.range-slider input[type='range'] {
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+/* 2. 修复双滑块的“背景轨道”颜色、高度和圆角 */
+.range-slider .range-bg {
+  background-color: var(--ctp-minor) !important;
+  height: 4px !important; /* 强制高度变细，数值越小越细 */
+  border-radius: 4px !important; /* 增加圆角，让两头变圆润 */
+}
+
+/* 3. 修复双滑块的“填充条”颜色、高度和圆角 */
+.range-slider .range-line {
+  background-color: var(--ctp-accent) !important;
+  height: 4px !important; /* 必须与背景轨道高度一致 */
+  border-radius: 4px !important; /* 增加圆角 */
+}
+
+/* 针对所有 ControlNet/图生图/Inpaint 画板内的滑条 */
+div[id$="_image"] input[type='range'],
+div[id$="_input_image"] input[type='range'],
+.gradio-image input[type='range'],
+.image-container input[type='range'],
+.brush-settings input[type='range'] {
+    background-image: none !important; /* 移除全局背景图 */
+    background-color: transparent !important; /* 背景透明，由轨道负责颜色 */
+    height: 4px !important;
+    margin-top: 6px !important;
+    -webkit-appearance: none !important; /* 关键：移除浏览器默认样式 */
+    appearance: none !important;
+}
+
+/* --- 第二部分：Chrome / Edge / Safari (WebKit内核) --- */
+
+/* 1. 轨道样式 (未选中部分) */
+div[id$="_image"] input[type='range']::-webkit-slider-runnable-track,
+div[id$="_input_image"] input[type='range']::-webkit-slider-runnable-track,
+.gradio-image input[type='range']::-webkit-slider-runnable-track {
+    height: 4px !important;
+    background-color: var(--ctp-minor) !important; /* 辅色 */
+    border-radius: 2px !important;
+    border: none !important;
+}
+
+/* 2. 滑点样式 (Thumb) - 修复圆头问题 */
+div[id$="_image"] input[type='range']::-webkit-slider-thumb,
+div[id$="_input_image"] input[type='range']::-webkit-slider-thumb,
+.gradio-image input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    height: 10px !important;  /* 设定固定高度 */
+    width: 20px !important;   /* 设定固定宽度 */
+    background: var(--ctp-accent) !important; /* 主色 */
+    border-radius: 20% !important; /* 强制为正圆形 */
+    margin-top: -5px !important; /* 垂直居中修正: (轨道4px - 滑点14px) / 2 */
+    box-shadow: none !important;
+    border: none !important;
+}
+
+/* --- 第三部分：Firefox (Gecko内核) --- */
+
+/* 1. 轨道样式 */
+div[id$="_image"] input[type='range']::-moz-range-track,
+div[id$="_input_image"] input[type='range']::-moz-range-track,
+.gradio-image input[type='range']::-moz-range-track {
+    height: 4px !important;
+    background-color: var(--ctp-minor) !important;
+    border-radius: 2px !important;
+}
+
+/* 2. 已滑过区域 (Progress) - 修复Firefox不显示颜色的问题 */
+div[id$="_image"] input[type='range']::-moz-range-progress,
+div[id$="_input_image"] input[type='range']::-moz-range-progress,
+.gradio-image input[type='range']::-moz-range-progress {
+    background-color: var(--ctp-accent) !important; /* 主色 */
+    height: 4px !important;
+    border-radius: 2px !important;
+}
+
+/* 3. 滑点样式 */
+div[id$="_image"] input[type='range']::-moz-range-thumb,
+div[id$="_input_image"] input[type='range']::-moz-range-thumb,
+.gradio-image input[type='range']::-moz-range-thumb {
+    height: 10px !important;
+    width: 20px !important;
+    background: var(--ctp-accent) !important;
+    border: none !important;
+    border-radius: 20% !important; /* 正圆形 */
+}
+
+/* 隐藏输入框中的数字增减按钮针对 Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none; /* 隐藏浏览器自带的上下箭头按钮 */
+  margin: 0; /* 移除默认的外边距 */
+}
+
+/* 隐藏输入框中的数字增减按钮针对 Firefox */
+input[type='number'] {
+  -moz-appearance: textfield; /* 隐藏 Firefox 的数字增减按钮 */
+  -webkit-appearance: none; /* 再次指定，确保兼容 Chrome、Safari */
+  appearance: none; /* 使用标准的 appearance 属性，适用于所有浏览器 */
+}
+
+.gr-box > div > div > input.gr-text-input {
+  width: 4em;
+}
+
+/* 图片生成进度条颜色设置 */
+.progressDiv .progress {
+  background: var(--ctp-accent); /* 进度条颜色设置 */
+  color: var(--shadow); /* 进度条文字颜色设置 */
+}
+
+/* 图片生成进度条背景颜色设置 */
+.dark .progressDiv,
+.progressDiv {
+  background-color: var(--ctp-minor);
+}
+
+#txt2img_tools>div, #img2img_tools>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#txt2img_accordions {
+  flex-direction: column;
+}
+
+div label:nth-of-type(n + 2):has(input[type="radio"]) {
+  margin-left: 6px;
+}
+
+/* 模型选择下拉菜单高度 */
+#quicksettings div:has(> div > div > input[role="listbox"]) {
+  height: 34px;
+  margin-top: 8px;
+}
+
+/* 按基础模型选择生成参数布局高度与间距 */
+#quicksettings label:has(input[type="radio"]) {
+  height: 34px;
+  padding-right: 11px;
+  background: var(--ctp-minor); /* 未选中的按钮背景颜色 */
+}
+
+#quicksettings label:has(input[type="radio"]) input[type="radio"] {
+  background: var(--ctp-mantle); /* 未选中的按钮内框颜色 */
+}
+
+#quicksettings label.selected:has(input[type="radio"]) {
+  background: var(--ctp-accent); /* 为选中的按钮设置背景颜色 */
+  color: var(--ctp-mantle); /* 为选中的按钮设置文字颜色 */
+}
+
+#quicksettings label.selected:has(input[type="radio"]) input[type="radio"] {
+  border: 5px solid var(--ctp-minor); /* 为选中的按钮设置内框边 */
+  background: var(--ctp-accent); /* 为选中的按钮设置内框颜色 */
+}
+
+#quicksettings button[title="Checkpoint: refresh"], #quicksettings button[title="VAE: refresh"]  {
+  height: 34px;
+}
+
+#quicksettings {
+  align-items: center !important;
+}
+
+/* Forge VAE / Text Encoder 下拉菜单 */
+.block.gradio-dropdown.multiselect {
+  border-style: solid; /* 设置边框样式为实线 */
+  overflow: hidden; /* 隐藏超出容器的内容 */
+  min-width: min(160px, 100%); /* 最小宽度为 160 像素或 100% 的父元素宽度，以较大者为准 */
+  border-width: var(--block-border-width); /* 边框宽度使用 CSS 变量 --block-border-width 的值 */
+}
+
+/* 下拉菜单标题 */
+.block.gradio-dropdown.multiselect label {
+  display: flex; /* 使用 flexbox 来排列子元素 */
+  flex-direction: column; /* 改为竖直方向排列 */
+  cursor: pointer; /* 鼠标悬停时显示手型光标 */
+}
+
+/* 下拉菜单标题 */
+.block.gradio-dropdown.multiselect label span[data-testid="block-info"] {
+  margin-right: 8px; /* 给标题一些右边距 */
+  margin-bottom: 8px; /* 给标题添加下边距 */
+}
+
+/* 下拉菜单框 */
+.block.gradio-dropdown.multiselect input {
+  border: none; /* 去掉菜单框的边框 */
+  outline: none; /* 去掉菜单框的轮廓 */
+  width: 100%; /* 菜单框宽度占满可用空间 */
+  height: 13px; /* 设置菜单框高度 */
+}
+
+/* 下拉箭头图标 */
+.block.gradio-dropdown.multiselect .dropdown-arrow {
+  width: 18px; /* 设置图标宽度 */
+  height: 18px; /* 设置图标高度 */
+  fill: currentColor; /* 使用当前字体颜色 */
+}
+
+/* 下拉箭头图标距离 */
+#quicksettings .subdued{
+    display: block;
+    margin-left: auto;
+    width: 10px;
+}
+
+/* 内部元素的包装容器 */
+.block.gradio-dropdown.multiselect .wrap {
+  position: relative; /* 使内部元素可以绝对定位 */
+  margin-top: 8px;
+}
+
+#quicksettings>button {
+  margin: auto 0px;
+  margin-top: 24px;
+}
+
+.block.gradio-dropdown.multiselect .wrap-inner{
+  flex-wrap: nowrap;
+  width: 260px;
+}
+
+
+/* 二次包裹 */
+.block.gradio-dropdown.multiselect .secondary-wrap {
+  display: flex; /* 使用 flexbox 来排列内部元素 */
+  align-items: center; /* 垂直居中对齐 */
+}
+
+/* 内部元素的包装容器 */
+.block.gradio-dropdown.multiselect .token {
+  height: 21px; /* 高度 */
+  background-color: var(--ctp-minor); /* 背景颜色 */
+  font-size: 13.5px; /* 设置字体大小为 13.5 像素 */
+  padding: 3px; /* 内边距，确保文本不紧贴边缘 */
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden
+}
+
+/* 无限生成菜单设置 */
+#context-menu {
+  background: var(--ctp-accent)!important; /* 背景颜色 */
+  position: absolute !important; /* 绝对定位 */
+  width: 320px !important; /* 宽度 */
+  top: 72px !important; /* 距离页面顶部167像素 */
+  left: 1335px !important; /* 距离页面左侧1484像素 */
+  padding: 0px; /* 内边距 */
+  border: 0px solid var(--ctp-minor); /* 边框线宽度及颜色 */
+  border-radius: 5px; /* 边框圆角 */
+  box-shadow: var(--ctp-minor) 0px 0px 20px 1px; /* 框阴影设置 */
+  z-index: 1000; /* 保证菜单显示在前 */
+  animation: slideUpFadeIn 0.3s ease-out forwards; /* 触发动画 */
+}
+
+.context-menu-items {
+  list-style: none; /* 去掉列表项前的标记 */
+  margin: 0;
+  padding: 0;
+}
+
+.context-menu-items a {
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  padding: 5px 5px; /* 链接的内边距 */
+  text-decoration: none; /* 去掉下划线 */
+  font-size: 14px; /* 字体大小 */
+  font-weight: 550; /* 字重 */
+}
+
+.context-menu-items a:hover {
+  background-color: var(--ctp-accent)!important; /* 鼠标悬停时的背景色 */
+  filter: brightness(130%);
+  transition: filter 0.3s ease;  /* 添加平滑过渡 */
+  border-radius: 5px; /* 边框圆角 */
+}
+
+.context-menu-items a:not(:last-child) {
+  border-bottom: 1px solid var(--ctp-minor); /* 分割线 */
+  margin-bottom: 0px; /* 分割线的间距 */
+}
+
+.context-menu-items a:not(:first-child) {
+  border-top: 1px solid var(--ctp-minor); /* 分割线 */
+  margin-top: 0px; /* 分割线的间距 */
+}
+
+/* lora浏览器卡片式样 */
+.extra-network-pane .card:hover{
+  box-shadow: 0px 0px 12px 1px var(--ctp-accent);
+}
+.extra-network-pane .card-button:hover{
+  color: var(--ctp-accent);
+}
+.extra-network-pane .card-button {
+  width: 1.5em;
+  text-shadow: 2px 2px 3px black;
+  color: white;
+  padding: 0.1em 0.3em;
+}
+.extra-network-pane .copy-path-button::before {
+  content: "⎘";
+}
+.extra-network-pane .metadata-button::before{
+  content: "🛈";
+}
+.extra-network-pane .edit-button::before{
+  content: "⚙";
+}
+.extra-network-pane .card .actions .description {
+  display: block;
+  max-height: 3em;
+  white-space: pre-wrap;
+  line-height: 1.1;
+  font-size: 20px;
+}
+.extra-network-pane .card .actions .description:hover {
+  color: var(--ctp-accent);
+}
+
+/* 滚动条式样 */
+::-webkit-scrollbar {
+  width: 8px; /* 整个滚动条的宽度 */
+  height: 8px; /* 整个滚动条的高度 */
+}
+
+::-webkit-scrollbar-track {
+  background: var(--ctp-mantle); /* 滚动条跟踪区域底色 */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--ctp-accent); /* 滚动条的颜色 */
+  border-radius: 5px; /* 滚动条的圆度 */
+  border: 1px solid var(--ctp-mantle); /* 在滚动条周围创建填充 */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--ctp-minor); /* 悬停时的颜色 */
+}
+
+/*/ ←←←←←← Forge WebUI 全局式样 /*/
+
+
+/*/ 插件式样设置  →→→→→→ /*/
+
+/* 隐藏WebUI本体选项卡中可能多出的插件选项卡 */
+#tab_stylez_menutab-button {display: none;}
+
+/* 插件总框架式样设置 */
+#Stylez { 
+  position: absolute;
+  top: 18.5vh;
+  background: black;
+  background: var(--body-background-fill);
+  width: 50%;
+  z-index: 1000;
+  right: 0;
+  height: fit-content;
+  display: none;
+  border: solid var(--button-primary-background-fill) !important;
+  border-radius: 10px; /* 边框倒角 */
+  border-width: 0px !important; /* 边框宽度 */
+  box-shadow: var(--ctp-minor) 0px 0px 20px 1px; /* 框阴影设置 */
+}
+/* 卡片框架式样设置 */
+#style_cards_column{
+  height: 48.5vh; 
+  min-width: unset !important;
+  overflow: auto;
+  padding-top: 2px;
+  padding-left: 0px;
+}
+#stylesPreviewRow {
+  margin-top: -10px;
+}
+/* 卡片布局式样设置 */
+.style_card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  contain: content;
+  margin-top: unset !important;
+  margin: 5px;
+  border-radius: 10px;
+}
+.styles_overlay{position: absolute;width: 100%; ;height:100% ;background-color: rgba(46, 46, 46, 0.642);opacity: 0; transition:opacity 0.5s ease;}
+.style_card:hover .styles_overlay{ opacity: 1;}
+.style_card:hover {box-shadow: 0px 0px 12px 1px var(--button-primary-background-fill) !important;}
+/* 风格库卡片预览图式样设置 */
+.styles_thumbnail{
+  height:inherit !important;
+  width:auto;
+  object-fit: contain;
+}
+/* C站图库卡片预览图式样设置 */
+.Civit_styles_thumbnail{
+  height:184px !important;
+  width:184px;
+  object-fit: cover;
+}
+.styles_title{pointer-events: none;position: absolute;top: 0;left: 0;background:#00000094; padding: 2px;font-size: 11px;color: white !important;}
+.styles_description{
+  pointer-events: none;
+  position: fixed;
+  text-align: center;
+  font-size: 14px !important; /* 设置文字大小 */
+  line-height: 1.2 !important; /* 调整行间距 */
+  padding: 10px 10px !important; /* 上、右、下、左的内边距分别为10px、15px、10px和15px */
+  color: var(--ctp-accent);
+  opacity: 0;
+  transition:opacity 0.5s ease;
+  word-break: break-word; /*  允许长单词断行 */
+  overflow-wrap: break-word; /*  兼容性更好的长单词断行 */
+}
+.styles_description .label {
+  color: var(--ctp-accent) !important; /* 标签文字显示为绿色 */
+}
+
+.styles_description .value {
+  color: white !important; /* 动态内容显示为白色 */
+}
+.style_card:hover .styles_description{ opacity: 1; }
+#txt2img_styles_popout > div{left: 0.3vw;flex-flow: column;}
+#img2img_styles_popout > div{left: 0.3vw;flex-flow: column;}
+#txt2img_styles_popout {border-left-style: solid;border-left-width: 2px}
+#img2img_styles_popout {border-left-style: solid;border-left-width: 2px}
+#style_refresh{min-width:unset !important;max-width: 2vw;align-self: flex-end;}
+#style_tags > label > div{margin-top: 10px;}
+.EditStyleJson{z-index: 9999;position: absolute;background-color: #00000094 !important;right: 0;bottom: 0; padding: 5px !important;border-top-left-radius: 5px;}
+.favouriteStyleJson{z-index: 9999;position: absolute;left: 0;bottom: 0; padding: 5px !important;}
+#style_command_btn_row{width: fit-content !important;align-self: end;}
+#style_filename_check_container{top:0px;left:0px;}
+#gradio_style_savefolder_row{top: -35px;position: relative !important;}
+.styles_checkbox{max-width: fit-content;min-width: unset !important;}
+.styles_dropdown > label > div{background-color: #00000042 !important;}
+.styles_checkbox > label > input{box-shadow: none !important;}
+#previewPromptPos > label > textarea{ max-height:63px ;}
+#previewPromptNeg > label > textarea{ max-height:63px ;}
+.favouriteStyleBtn{font-size: 30px !important;position: absolute;-webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black; bottom: -10px !important;left: 0px !important;}
+#style_quicklist_column{height:inherit ;min-width: unset !important;max-width:142px; background-color: var(--input-background-fill); border-radius: 5px; padding: 5px; min-width: min(0px,100%) !important;}
+#style_quicklist_column textarea{resize: none; text-align: center;}
+#styles_quicksave_list{min-height: 427px;max-height: 427px;overflow: auto;background: var(--body-background-fill);border-radius: 5px;padding-left: 6px !important;padding-top: 6px !important;}
+.styles_quicksave{text-wrap: nowrap;display: flex;align-items: center;border-style: solid;background: var(--input-background-fill);border-radius:5px;max-width: fit-content !important;min-width: -webkit-fill-available;}
+.styles_quicksave_del{padding-left: 5px !important;padding-right: 5px !important;opacity: 70%;}
+.styles_quicksave_del:hover{opacity: 100%;}
+.stylezquicksave_add{max-width:50%;min-width: 2.2em !important;align-content: center;font-size:12px !important;height:24px;}
+.styles_quicksave_btn{display: flex;opacity: 70%;padding-left: 5px !important;font-weight: bold !important;font-size: 10px;}
+.styles_quicksave_btn:hover{opacity: 100%;color: var(--button-primary-background-fill);}
+.styles_quicksave_apply{border-left-style:solid;border-left-width: 2px;border-color:#0000006e;display: grid;margin-bottom:unset !important;}
+
+/* 提示词悬浮预览式样设置 */
+.stylezPreviewBox{
+  position: absolute;
+  display: none;
+  top: -31.5px;
+  left: -420px;
+  width: 400px;
+  background-color:var(--body-background-fill);
+  padding: 10px;
+  border: solid var(--button-primary-background-fill) !important;
+  border-radius: 10px; /* 边框倒角 */
+  border-width: 0px !important; /* 边框宽度 */
+  box-shadow: var(--ctp-minor) 0px 0px 20px 1px; /* 悬浮框阴影设置 */
+  animation: slideUpFadeIn 0.3s ease-out forwards; /* 触发动画 */
+  word-break: break-word; /*  允许长单词断行 */
+  overflow-wrap: break-word; /*  兼容性更好的长单词断行 */
+}
+.stylezPreviewBox span { /*  "Prompt:" 和 "Negative:" 的样式 */
+  font-weight: bold;  /*  加粗 */
+  margin-right: 5px; /*  与文本之间添加一些间距 */
+}
+
+#style_Catagory{align-self: flex-end;}
+#styles_generator{height: fit-content;}
+.stylez_promptgenbox > label > textarea{ overflow-y: scroll;max-height: 168px !important;min-height: 168px;}
+
+/* 提示词卡片式样设置 */
+.style_card_checkbox {
+    position: absolute;
+    top: 5px; /* 卡片间距r */
+    right: 5px; /* 卡片间距 */
+    cursor: pointer;
+    display: none; /* 最初隐藏复选框 */
+    user-select: none;
+    color: var(--ctp-accent) !important;
+}
+.style_card_checkbox.checked {
+    display: block; /* 选中时显示复选框 */
+}
+.style_card.selected {
+    /* 在此处插入所选卡片的样式 -可以包括边框颜色更改等 */
+    border: 3px solid var(--ctp-accent); /* 所选卡片的边框厚度及颜色设置 */
+    border-radius: 15px; /* 选中框圆角设置 */
+}
+
+#tab_stylez_menutab-button {display: none;}
+
+/* 画面尺寸按钮式样1 */
+.ar-button {
+    height: 24px !important; /* 设置按钮的高度 */
+    flex-direction: column !important; /* 设置文字位置 */
+    font-size: 16px !important; /* 设置文字大小 */
+    margin: -4px 0px !important; /* 设置按钮的外边距 */
+    border-radius: 6px !important; /* 设置按钮的圆角 */
+    /* background-blend-mode: overlay;
+    background-color: #a84103 !important; */
+}
+
+/* 画面尺寸按钮式样2 */
+.ar2-button {
+    height: 24px !important; /* 设置按钮的高度 */
+    flex-direction: column !important; /* 设置文字位置 */
+    font-size: 16px !important; /* 设置文字大小 */
+    margin: -4px 0px !important; /* 设置按钮的外边距 */
+    border-radius: 6px !important; /* 设置按钮的圆角 */
+    /* background-blend-mode: overlay; */
+    background-color: var(--ctp-minor) !important;
+}
+
+/* 常用词汇简单布局按钮设置 */
+.simple-button {
+    height: 24px !important;
+    flex-direction: column !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    margin: -4px 0px !important;
+    border-radius: 6px !important;
+    background-color: rgb(59, 59, 59) !important; /* Default color */
+    min-width: fit-content !important;
+}
+
+/* 常用词汇复杂布局按钮设置 */
+#simple_prompt_button_columns {
+    margin-top: 0px;
+    margin-left: 0px;
+    overflow-x: hidden;
+    height: 400px;
+}
+
+.simple-prompt-button { /* Style the button container */
+    display: flex;
+    flex-direction: column; /* 垂直排列子元素 */
+    align-items: center;  /* 水平居中 */
+    justify-content: center; /* 垂直居中 */
+    
+    /* 核心修复：重置浏览器默认的按钮样式，确保 Chrome/Firefox 一致 */
+    padding: 0 !important; 
+    border: none !important;
+    background: transparent !important;
+    gap: 0 !important; /* 确保上下两部分紧贴，无间隙 */
+    min-height: auto !important; /* 防止被默认高度撑开 */
+}
+
+/* 核心修复：隐藏 Python 代码中生成的 <br> 标签 */
+/* 它是导致布局在不同浏览器表现不一致的罪魁祸首 */
+.simple-prompt-button br {
+    display: none !important;
+}
+
+.simple-prompt-button .label-top {  /* 设置顶部标签的样式（中文） */
+    color: var(--ctp-text);
+    font-size: 14px;
+    background: #2b2b2b;
+    width: 135px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+    /* 核心修复：移除负边距，使用 padding 撑开高度 */
+    margin-bottom: 0px !important; 
+    margin-top: 0px !important;
+    padding: 3px 0; /* 增加内边距，让文字垂直居中且有呼吸感 */
+    line-height: 1.2; /* 统一行高 */
+    
+    overflow: hidden; /* 隐藏超出部分 */
+    text-overflow: ellipsis; /* 使用省略号 (...) 表示超出部分 */
+    white-space: nowrap; /* 禁止文本换行 */
+}
+
+.simple-prompt-button .label-bottom {  /* 设置底部标签的样式（英文） */
+    color: var(--ctp-base);
+    font-size: 12px;
+    background: #b0b0b0;
+    width: 135px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+    /* 核心修复：样式统一 */
+    padding: 3px 0; /* 增加内边距 */
+    line-height: 1.2;
+    
+    overflow: hidden; /* 隐藏超出部分 */
+    text-overflow: ellipsis; /* 使用省略号 (...) 表示超出部分 */
+    white-space: nowrap; /* 禁止文本换行 */
+}
+
+.simple-prompt-button:hover .label-top,
+.simple-prompt-button.selected .label-top { /* Added .selected */
+    font-weight: 600 !important;
+    color: var(--ctp-base) !important; /* Use your theme color on hover */
+    background: var(--ctp-accent) !important;
+}
+
+.simple-prompt-button:hover .label-bottom,
+.simple-prompt-button.selected .label-bottom { /* Added .selected */
+    color: var(--ctp-text) !important; /* Use your theme color on hover */
+    background: #2b2b2b !important;
+}
+
+.grid-container {
+    --grid-cols: 4 !important;
+    --object-fit: cover !important;
+    height: auto !important;
+}
+
+#civit_cards_column {
+  height: 48.7vh !important;
+  position: relative !important; 
+}
+
+#civitai_cardholder {
+  overflow: auto;
+  height: 48.7vh !important;
+  padding-top: 3px;
+}
+
+#civitaiimages_loading {
+  text-align-last: center;
+  position: absolute;
+  z-index: 9;
+  background: #000000bd;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  
+  backdrop-filter: blur(5px);
+}
+
+#civitaiimages_loading p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--button-primary-background-fill);
+  font-size: 50px;
+  text-shadow: 0 0 20px #fff0, 0 0 30px var(--ctp-minor), 0 0 40px var(--ctp-minor), 0 0 50px var(--ctp-minor), 0 0 60px var(--ctp-minor), 0 0 70px var(--ctp-minor), 0 0 80px var(--ctp-minor);
+}
+
+/* 隐藏C站用户名输入框标题 */
+#civit_username_input label span:not(.has-info) {
+  display: none;
+}
+
+#civit_username_input textarea {
+  resize: none;
+}
+
+/* 隐藏C站模型搜索输入框标题 */
+#cm_search_input label span:not(.has-info) {
+  display: none;
+}
+
+#cm_search_input textarea {
+  resize: none;
+}
+
+/* 修改风格编辑界面小型文本框 */
+#style_title_txt textarea {
+  resize: none;
+}
+#style_title_txt label span:not(.has-info) {
+  display: none;
+}
+
+#style_description_txt textarea {
+  resize: none;
+}
+#style_description_txt label span:not(.has-info) {
+  display: none;
+}
+
+#style_prompt_txt label span:not(.has-info) {
+  display: none;
+}
+
+#style_negative_txt label span:not(.has-info) {
+  display: none;
+}
+
+#steps_cfg_scale {
+  margin-top: -0.5em;
+}
+#style_steps textarea {
+  resize: none;
+}
+#style_cfg_scale textarea {
+  resize: none;
+}
+
+#seed_size {
+  margin-top: -0.5em;
+}
+#style_seed textarea {
+  resize: none;
+}
+#style_size textarea {
+  resize: none;
+}
+
+#sampling_scheduler {
+  margin-top: -0.5em;
+}
+#style_sampling textarea {
+  resize: none;
+}
+#style_scheduler textarea {
+  resize: none;
+}
+
+/* 隐藏调色板颜色选择器标题 */
+#palette_color_1 label span:not(.has-info) {
+  display: none;
+}
+#palette_color_2 label span:not(.has-info) {
+  display: none;
+}
+#palette_color_3 label span:not(.has-info) {
+  display: none;
+}
+#palette_color_4 label span:not(.has-info) {
+  display: none;
+}
+#palette_color_5 label span:not(.has-info) {
+  display: none;
+}
+
+/* 调色板颜色选择器设置 */
+.palette-color-picker input[type='color'] {
+  width: 100%;
+  height: 43px;
+  border-radius: 10px;
+  border: none !important; /* 强制移除 Input 本身边框 */
+  background: transparent !important; /* Firefox 有时会有默认背景色 */
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 0;
+  cursor: pointer;
+}
+.palette-color-picker input[type='color']::-webkit-color-swatch-wrapper {
+  padding: 0;
+  border-radius: 10px;
+}
+.palette-color-picker input[type='color']::-webkit-color-swatch {
+  border-radius: 10px;
+  border: none;
+}
+/* 🟢 新增：针对 Firefox 的修复 🟢 */
+.palette-color-picker input[type='color']::-moz-color-swatch {
+  border-radius: 10px; /* 保持圆角一致 */
+  border: none !important; /* 关键：移除 Firefox 内部色块的默认边框 */
+}
+
+/* 主题颜色选择器设置 */
+.theme-color-picker input[type='color'] {
+  width: 180px;
+  height: 40px;
+  border-radius: 10px;
+  border: none !important; /* 强制移除 Input 本身边框 */
+  background: transparent !important;
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 0;
+  cursor: pointer;
+}
+.theme-color-picker input[type='color']::-webkit-color-swatch-wrapper {
+  padding: 0;
+  border-radius: 10px;
+}
+.theme-color-picker input[type='color']::-webkit-color-swatch {
+  border-radius: 10px;
+  border: none;
+}
+/* 🟢 新增：针对 Firefox 的修复 🟢 */
+.theme-color-picker input[type='color']::-moz-color-swatch {
+  border-radius: 10px; /* 保持圆角一致 */
+  border: none !important; /* 关键：移除 Firefox 内部色块的默认边框 */
+}
+
+/* 搜索框,文件名命名框微调 */
+#style_search textarea, #style_filename_txt textarea {
+  height: 39px !important;            /* 固定高度 */
+  top: 8px;                /* 定位 */
+  resize: none;            /* 禁止调整大小 */
+}
+
+/* 仅限 .Stylez 容器下的 .tab-nav 样式 */
+#Stylez .tab-nav {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--border-color-primary);
+  background: var(--ctp-minor);
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+#Stylez .tab-nav [aria-selected="true"] {
+  background: var(--ctp-accent);
+  color: var(--ctp-base)!important;
+  box-shadow: #000000 0px 5px 10px 0px;
+  border: 1px solid transparent;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#Stylez .tab-nav [aria-selected="false"] {
+  color: var(--ctp-text)!important;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* 仅限常用词汇容器下的 .tab-nav 样式 */
+#simple_prompt_category .tab-nav [aria-selected="true"] {
+  font-size: 15px!important;
+  box-shadow: #000000 0px 2px 4px 0px!important;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  filter: brightness(90%);
+}
+#simple_prompt_subcategory .tab-nav [aria-selected="true"] {
+  font-size: 15px!important;
+  box-shadow: #000000 0px 2px 4px 0px!important;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  filter: brightness(75%);
+}
+#simple_prompt_category .tab-nav [aria-selected="false"],
+#simple_prompt_subcategory .tab-nav [aria-selected="false"] {
+  font-size: 14px!important;
+}
+
+/* 风格库底部调整 */
+#stylesPreviewRow {
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+/* 主题预设按钮设置 */
+.minty-teal-button {
+  background: linear-gradient(to right, #00FFC9 70%, #3d3e4f 30%) !important; /* 左边亮色，右边暗色 */
+  color: rgb(0, 0, 0) !important; /* 按钮文字颜色 */
+  height: 30px;
+  font-size: 14px !important;
+  font-weight: 300 !important;
+}
+.lime-green-button {
+  background: linear-gradient(to right, #b7ff00 70%, #3e3f3b 30%) !important; /* 左边亮色，右边暗色 */
+  color: rgb(0, 0, 0) !important; /* 按钮文字颜色 */
+  height: 30px;
+  font-size: 14px !important;
+  font-weight: 300 !important;
+}
+.electric-blue-button {
+  background: linear-gradient(to right, #00b7ff 70%, #2f394e 30%) !important; /* 左边亮色，右边暗色 */
+  color: rgb(0, 0, 0) !important; /* 按钮文字颜色 */
+  height: 30px;
+  font-size: 14px !important;
+  font-weight: 300 !important;
+}
+.amber-orange-button {
+  background: linear-gradient(to right, #ff9900 70%, #252525 30%) !important; /* 左边亮色，右边暗色 */
+  color: rgb(0, 0, 0) !important; /* 按钮文字颜色 */
+  height: 30px;
+  font-size: 14px !important;
+  font-weight: 300 !important;
+}
+.cotton-candy-button {
+  background: linear-gradient(to right, #F798B3 70%, #666771 30%) !important; /* 左边亮色，右边暗色 */
+  color: rgb(0, 0, 0) !important; /* 按钮文字颜色 */
+  height: 30px;
+  font-size: 14px !important;
+  font-weight: 300 !important;
+}
+.neon-lilac-button {
+  background: linear-gradient(to right, #BB86FC 70%, #424242 30%) !important; /* 左边亮色，右边暗色 */
+  color: rgb(0, 0, 0) !important; /* 按钮文字颜色 */
+  height: 30px;
+  font-size: 14px !important;
+  font-weight: 300 !important;
+}
+.coral-red-button {
+  background: linear-gradient(to right, #ff4040 70%, #272727 30%) !important; /* 左边亮色，右边暗色 */
+  color: rgb(0, 0, 0) !important; /* 按钮文字颜色 */
+  height: 30px;
+  font-size: 14px !important;
+  font-weight: 300 !important;
+}
+.light-gray-button {
+  background: linear-gradient(to right, #d3d3d3 70%, #282828 30%) !important; /* 左边亮色，右边暗色 */
+  color: rgb(0, 0, 0) !important; /* 按钮文字颜色 */
+  height: 30px;
+  font-size: 14px !important;
+  font-weight: 300 !important;
+}
+.champagne-gold-button {
+  background: linear-gradient(to right, #F7E7CE 70%, #3B3633 30%) !important; /* 左边亮色，右边暗色 */
+  color: rgb(0, 0, 0) !important; /* 按钮文字颜色 */
+  height: 30px;
+  font-size: 14px !important;
+  font-weight: 300 !important;
+}
+.lavender-blue-button {
+  background: linear-gradient(to right, #87A9FF 70%, #29344A 30%) !important; /* 左边亮色，右边暗色 */
+  color: rgb(0, 0, 0) !important; /* 按钮文字颜色 */
+  height: 30px;
+  font-size: 14px !important;
+  font-weight: 300 !important;
+}
+
+/* 限制 提示词扩写(prompt_output_html) 和 图像反推(tags) 输出框的高度 */
+#prompt_output_html, #tags {
+    max-height: 360px !important;  /* 限制最大高度，与图片高度保持一致 */
+    min-height: 120px !important;
+    overflow-y: auto !important   /* 内容超出时显示垂直滚动条 */
+}
+
+/* 1. 限制提示词扩写输入框高度 */
+.prompt_box textarea {
+    max-height: 240px !important;  /* 限制最大高度，与图片高度保持一致 */
+    min-height: 120px !important;
+    overflow-y: auto !important  /* 内容超出时显示垂直滚动条 */
+}
+
+/* 1. 限制Edit正负向提示词输入框高度 */
+#style_prompt_txt textarea,
+#style_negative_txt textarea {
+    max-height: 120px !important;  /* 限制最大高度，避免太占空间 */
+    overflow-y: auto !important;   /* 内容超出时显示垂直滚动条 */
+}
+
+/* 2. 限制Edit缩略图(Thumbnail)输入框高度 */
+#style_thumbnailbox {
+    max-height: 350px !important; /* 限制整个组件容器的最大高度 */
+    min-height: auto !important;  /* 允许高度根据内容自动缩小 */
+}
+
+/* 下载图标旋转动画 */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.rotating-icon {
+  display: inline-block;
+  animation: spin 1.5s linear infinite;
+}
+
+/* 下载进度弹窗样式 */
+#civitai-progress-modal {
+    display: none;
+    position: fixed;
+    z-index: 10001;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+}
+.progress-modal-content {
+    background-color: var(--body-background-fill);
+    padding: 20px;
+    border: 1px solid var(--border-color-primary);
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+.progress-bar-container {
+    width: 100%;
+    background-color: var(--ctp-surface0);
+    border-radius: 4px;
+    margin: 15px 0;
+    height: 20px;
+    overflow: hidden;
+}
+.progress-bar-fill {
+    height: 100%;
+    background-color: var(--ctp-accent);
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+#cm_nsfw_checkbox {
+    display: none !important;
+}
+
+/*/ ←←←←←← 插件式样设置 /*/
+
+/* all in one插件勾选框颜色适配 */
+.physton-prompt .prompt-header .prompt-header-extend .extend-content input[type=checkbox]:checked {
+  background-color: var(--ctp-accent) !important;
+}
+
+/* resharpen式样 */
+.gradio-group.resharpen:not(.hr) {
+  margin: 2em 0em;
+}
+
+.gradio-group.resharpen fieldset div.wrap {
+  justify-content: center !important;
+  gap: 0.5em !important;
+}
+
+.gradio-group.resharpen fieldset div.wrap label {
+  border-radius: 0.5em;
+}

@@ -1,0 +1,7 @@
+{
+    "name": "mre-spontaneous-picture",
+    "description": "MRE\u2022\u81ea\u53d1\u7684\u56fe\u7247",
+    "preview": "mre-spontaneous-picture.jpg",
+    "prompt": "spontaneous picture of {prompt}, taken by talented amateur. best quality, high resolution. magical moment, natural look. simple but good looking",
+    "negative": "overthinked. low quality, low resolution"
+}

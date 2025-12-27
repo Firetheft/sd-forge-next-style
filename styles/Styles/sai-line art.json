@@ -1,0 +1,7 @@
+{
+    "name": "sai-line art",
+    "description": "SAI\u2022\u7ebf\u6761\u827a\u672f",
+    "preview": "sai-line art.jpg",
+    "prompt": "line art drawing {prompt}, professional, sleek, modern, minimalist, graphic, line art, vector graphics",
+    "negative": "anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes, bad anatomy, ugly, disfigured, mutated, realism, realistic, impressionism, expressionism, oil, acrylic"
+}

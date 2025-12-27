@@ -1,0 +1,7 @@
+{
+    "name": "MK pictorialism",
+    "description": "MK\u2022\u56fe\u50cf\u4e3b\u4e49\u63d2\u753b",
+    "preview": "MK pictorialism.jpg",
+    "prompt": "Pictorialism illustration {prompt}. soft focus, atmospheric effects, artistic interpretation, tonality, muted colors, evocative storytelling",
+    "negative": "sharp focus, high contrast, realistic depiction, vivid colors"
+}

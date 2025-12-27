@@ -1,0 +1,7 @@
+{
+    "name": "MK Encaustic Paint",
+    "description": "MK\u2022\u8721\u753b\u5de5\u827a",
+    "preview": "MK Encaustic Paint.jpg",
+    "prompt": "Encaustic paint {prompt}. Textured surfaces, translucent layers, luminous quality, wax medium, rich color saturation, fluid and organic shapes, contemporary and historical influences, mixed media elements, atmospheric depth",
+    "negative": "flat surfaces, opaque layers, lack of wax medium, muted color palette, absence of textured surfaces, non-mixed media"
+}

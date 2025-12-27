@@ -1,0 +1,7 @@
+{
+    "name": "mre-dynamic-illustration",
+    "description": "MRE\u2022\u52a8\u6001\u63d2\u56fe",
+    "preview": "mre-dynamic-illustration.jpg",
+    "prompt": "insanely dynamic illustration of {prompt}. best quality, high resolution. crazy artstyle, careless brushstrokes, emotional and fun",
+    "negative": "photography, realistic. static, still, slow, boring. low quality, low resolution"
+}

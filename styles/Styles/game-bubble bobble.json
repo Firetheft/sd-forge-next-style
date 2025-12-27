@@ -1,0 +1,7 @@
+{
+    "name": "game-bubble bobble",
+    "description": "\u6e38\u620f\u2022\u6ce1\u6ce1\u9f99",
+    "preview": "game-bubble bobble.jpg",
+    "prompt": "Bubble Bobble style {prompt}, 8-bit, cute, pixelated, fantasy, vibrant, reminiscent of Bubble Bobble game",
+    "negative": "realistic, modern, photorealistic, violent, horror"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "misc-gothic",
+    "description": "\u6742\u9879\u2022\u54e5\u7279\u98ce\u683c",
+    "preview": "misc-gothic.jpg",
+    "prompt": "gothic style {prompt}, dark, mysterious, haunting, dramatic, ornate, detailed",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, cheerful, optimistic"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "mre-space-art",
+    "description": "MRE\u2022\u592a\u7a7a\u827a\u672f",
+    "preview": "mre-space-art.jpg",
+    "prompt": "winner of inter-galactic art contest illustrating {prompt}, symbol of the interstellar singularity. best quality, high resolution. artstyle previously unseen in the whole galaxy",
+    "negative": "created by human race, low quality, low resolution"
+}

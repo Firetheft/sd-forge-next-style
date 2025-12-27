@@ -1,0 +1,7 @@
+{
+    "name": "Minimalism",
+    "description": "\u6781\u7b80\u4e3b\u4e49\u98ce\u683c",
+    "preview": "Minimalism.jpg",
+    "prompt": "Minimalism, {prompt}, abstract, simple geometic shapes, hard edges, sleek contours, Minimalism",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

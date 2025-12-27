@@ -1,0 +1,7 @@
+{
+    "name": "Bauhaus-Style Poster",
+    "description": "\u5305\u8c6a\u65af\u98ce\u683c\u6d77\u62a5",
+    "preview": "Bauhaus-Style Poster.jpg",
+    "prompt": "Bauhaus-Style Poster, {prompt}, simple geometric shapes, clean lines, primary colors, Bauhaus-Style Poster",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

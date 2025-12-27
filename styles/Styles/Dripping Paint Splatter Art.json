@@ -1,0 +1,7 @@
+{
+    "name": "Dripping Paint Splatter Art",
+    "description": "\u6ef4\u843d\u98de\u6e85\u7684\u989c\u6599",
+    "preview": "Dripping Paint Splatter Art.jpg",
+    "prompt": "Dripping Paint Splatter Art, {prompt}, dramatic, paint drips, splatters, dripping paint",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "sai-origami",
+    "description": "SAI\u2022\u6298\u7eb8",
+    "preview": "sai-origami.jpg",
+    "prompt": "origami style {prompt}, paper art, pleated paper, folded, origami art, pleats, cut and fold, centered composition",
+    "negative": "noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo"
+}

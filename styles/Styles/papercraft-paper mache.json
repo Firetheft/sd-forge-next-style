@@ -1,0 +1,7 @@
+{
+    "name": "papercraft-paper mache",
+    "description": "\u7eb8\u827a\u2022\u7eb8\u6a21",
+    "preview": "papercraft-paper mache.jpg",
+    "prompt": "paper mache representation of {prompt}, 3D, sculptural, textured, handmade, vibrant, fun",
+    "negative": "2D, flat, photo, sketch, digital art, deformed, noisy, blurry"
+}

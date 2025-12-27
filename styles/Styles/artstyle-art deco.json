@@ -1,0 +1,7 @@
+{
+    "name": "artstyle-art deco",
+    "description": "\u827a\u672f\u98ce\u683c\u2022\u88c5\u9970\u827a\u672f",
+    "preview": "artstyle-art deco.jpg",
+    "prompt": "art deco style {prompt}, geometric shapes, bold colors, luxurious, elegant, decorative, symmetrical, ornate, detailed",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, modernist, minimalist"
+}

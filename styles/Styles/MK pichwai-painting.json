@@ -1,0 +1,7 @@
+{
+    "name": "MK pichwai-painting",
+    "description": "MK\u2022\u76ae\u5947\u74e6\u4f0a\u7ed8\u753b",
+    "preview": "MK pichwai-painting.jpg",
+    "prompt": "Pichwai painting {prompt}. intricate detailing, vibrant colors, religious themes, nature motifs, devotional storytelling, gold leaf accents",
+    "negative": "minimalist, subdued colors, abstract design"
+}

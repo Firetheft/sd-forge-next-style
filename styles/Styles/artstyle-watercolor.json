@@ -1,0 +1,7 @@
+{
+    "name": "artstyle-watercolor",
+    "description": "\u827a\u672f\u98ce\u683c\u2022\u6c34\u5f69",
+    "preview": "artstyle-watercolor.jpg",
+    "prompt": "watercolor painting {prompt}, vibrant, beautiful, painterly, detailed, textural, artistic",
+    "negative": "anime, photorealistic, 35mm film, deformed, glitch, low contrast, noisy"
+}

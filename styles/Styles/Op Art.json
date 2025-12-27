@@ -1,0 +1,7 @@
+{
+    "name": "Op Art",
+    "description": "\u89c6\u89c9\u827a\u672f",
+    "preview": "Op Art.jpg",
+    "prompt": "Op Art, {prompt}, optical illusion, abstract, geometric pattern, impression of movement, Op Art",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

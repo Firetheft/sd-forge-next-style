@@ -1,0 +1,7 @@
+{
+    "name": "Ink Dripping Drawing",
+    "description": "\u6ef4\u58a8\u7ed8\u753b",
+    "preview": "Ink Dripping Drawing.jpg",
+    "prompt": "Ink Dripping Drawing, {prompt}, ink drawing, dripping ink",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, colorful, vibrant"
+}

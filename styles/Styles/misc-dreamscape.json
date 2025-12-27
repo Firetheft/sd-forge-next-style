@@ -1,0 +1,7 @@
+{
+    "name": "misc-dreamscape",
+    "description": "\u6742\u9879\u2022\u68a6\u5e7b\u98ce\u666f",
+    "preview": "misc-dreamscape.jpg",
+    "prompt": "dreamscape {prompt}, surreal, ethereal, dreamy, mysterious, fantasy, highly detailed",
+    "negative": "realistic, concrete, ordinary, mundane"
+}

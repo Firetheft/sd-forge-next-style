@@ -1,0 +1,7 @@
+{
+    "name": "misc-disco",
+    "description": "\u6742\u9879\u2022\u8fea\u65af\u79d1",
+    "preview": "misc-disco.jpg",
+    "prompt": "disco-themed {prompt}, vibrant, groovy, retro 70s style, shiny disco balls, neon lights, dance floor, highly detailed",
+    "negative": "minimalist, rustic, monochrome, contemporary, simplistic"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Futurism",
+    "description": "\u672a\u6765\u4e3b\u4e49",
+    "preview": "Futurism.jpg",
+    "prompt": "Futurism Art Style, {prompt}, dynamic, dramatic, Futurism Art Style",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

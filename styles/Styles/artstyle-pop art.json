@@ -1,0 +1,7 @@
+{
+    "name": "artstyle-pop art",
+    "description": "\u827a\u672f\u98ce\u683c\u2022\u6ce2\u666e\u827a\u672f",
+    "preview": "artstyle-pop art.jpg",
+    "prompt": "pop Art style {prompt}, bright colors, bold outlines, popular culture themes, ironic or kitsch",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, minimalist"
+}

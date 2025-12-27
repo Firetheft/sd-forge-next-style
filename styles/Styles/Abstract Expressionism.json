@@ -1,0 +1,7 @@
+{
+    "name": "Abstract Expressionism",
+    "description": "\u62bd\u8c61\u8868\u73b0\u4e3b\u4e49",
+    "preview": "Abstract Expressionism.jpg",
+    "prompt": "Abstract Expressionism Art, {prompt}, High contrast, minimalistic, colorful, stark, dramatic, expressionism",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "MK One Line Art",
+    "description": "MK\u2022\u5355\u7ebf\u827a\u672f",
+    "preview": "MK One Line Art.jpg",
+    "prompt": "One line art {prompt}. Continuous and unbroken black line, minimalistic, simplicity, economical use of space, flowing and dynamic, symbolic representations, contemporary aesthetic, evocative and abstract, white background",
+    "negative": "disjointed lines, complexity, complex detailing"
+}

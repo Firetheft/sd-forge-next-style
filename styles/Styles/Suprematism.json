@@ -1,0 +1,7 @@
+{
+    "name": "Suprematism",
+    "description": "\u81f3\u4e0a\u4e3b\u4e49",
+    "preview": "Suprematism.jpg",
+    "prompt": "Suprematism, {prompt}, abstract, limited color palette, geometric forms, Suprematism",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, realistic"
+}

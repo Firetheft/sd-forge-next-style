@@ -1,0 +1,7 @@
+{
+    "name": "MK patachitra-painting",
+    "description": "MK\u2022\u5e15\u5854\u5947\u7279\u62c9\u7ed8\u753b",
+    "preview": "MK patachitra-painting.jpg",
+    "prompt": "Patachitra painting {prompt}. bold outlines, vibrant colors, intricate detailing, mythological themes, storytelling, traditional craftsmanship",
+    "negative": "subdued colors, minimalistic, abstract, modern aesthetics"
+}

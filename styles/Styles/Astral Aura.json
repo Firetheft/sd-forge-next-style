@@ -1,0 +1,7 @@
+{
+    "name": "Astral Aura",
+    "description": "\u661f\u4f53\u5149\u73af",
+    "preview": "Astral Aura.jpg",
+    "prompt": "Astral Aura, {prompt}, astral, colorful aura, vibrant energy",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Idyllic",
+    "description": "\u7530\u56ed\u8bd7\u822c\u7684",
+    "preview": "Idyllic.jpg",
+    "prompt": "Idyllic, {prompt}, peaceful, happy, pleasant, happy, harmonious, picturesque, charming",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

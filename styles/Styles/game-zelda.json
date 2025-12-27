@@ -1,0 +1,7 @@
+{
+    "name": "game-zelda",
+    "description": "\u6e38\u620f\u2022\u585e\u5c14\u8fbe\u4f20\u8bf4",
+    "preview": "game-zelda.jpg",
+    "prompt": "Legend of Zelda style {prompt}, vibrant, fantasy, detailed, epic, heroic, reminiscent of The Legend of Zelda series",
+    "negative": "sci-fi, modern, realistic, horror"
+}

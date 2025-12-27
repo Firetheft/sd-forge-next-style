@@ -1,0 +1,7 @@
+{
+    "name": "Rococo",
+    "description": "\u6d1b\u53ef\u53ef\u98ce\u683c",
+    "preview": "Rococo.jpg",
+    "prompt": "Rococo, {prompt}, flamboyant, pastel colors, curved lines, elaborate detail, Rococo",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

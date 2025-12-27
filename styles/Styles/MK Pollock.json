@@ -1,0 +1,7 @@
+{
+    "name": "MK Pollock",
+    "description": "MK\u2022\u6ce2\u6d1b\u514b",
+    "preview": "MK Pollock.jpg",
+    "prompt": "Oil painting by Jackson Pollock {prompt}. Abstract expressionism, drip painting, chaotic composition, energetic, spontaneous, unconventional technique, dynamic, bold, distinctive, vibrant, intense, expressive, energetic, layered, non-representational, gestural",
+    "negative": "(realistic:1.5), (photorealistic:1.5), representational, calm, ordered composition, precise lines, detailed forms, subdued colors, quiet, static, traditional, figurative"
+}

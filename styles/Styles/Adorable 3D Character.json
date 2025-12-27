@@ -1,0 +1,7 @@
+{
+    "name": "Adorable 3D Character",
+    "description": "\u53ef\u7231\u76843D\u89d2\u8272",
+    "preview": "Adorable 3D Character.jpg",
+    "prompt": "Adorable 3D Character, {prompt}, 3D render, adorable character, 3D art",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, grunge, sloppy, unkempt, photograph, photo, realistic"
+}

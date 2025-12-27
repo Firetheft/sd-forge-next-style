@@ -1,0 +1,7 @@
+{
+    "name": "papercraft-papercut shadow box",
+    "description": "\u7eb8\u827a\u2022\u526a\u7eb8\u5f71\u7bb1",
+    "preview": "papercraft-papercut shadow box.jpg",
+    "prompt": "3D papercut shadow box of {prompt}, layered, dimensional, depth, silhouette, shadow, papercut, handmade, high contrast",
+    "negative": "painting, drawing, photo, 2D, flat, high detail, blurry, noisy, disfigured"
+}

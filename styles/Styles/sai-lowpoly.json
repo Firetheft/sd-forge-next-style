@@ -1,0 +1,7 @@
+{
+    "name": "sai-lowpoly",
+    "description": "SAI\u2022\u4f4e\u591a\u8fb9\u5f62",
+    "preview": "sai-lowpoly.jpg",
+    "prompt": "low-poly style {prompt}, low-poly game art, polygon mesh, jagged, blocky, wireframe edges, centered composition",
+    "negative": "noisy, sloppy, messy, grainy, highly detailed, ultra textured, photo"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "game-strategy game",
+    "description": "\u6e38\u620f\u2022\u7b56\u7565\u6e38\u620f",
+    "preview": "game-strategy game.jpg",
+    "prompt": "strategy game style {prompt}, overhead view, detailed map, units, reminiscent of real-time strategy video games",
+    "negative": "first-person view, modern, photorealistic"
+}

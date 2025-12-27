@@ -1,0 +1,7 @@
+{
+    "name": "High Fashion",
+    "description": "\u9ad8\u7ea7\u65f6\u88c5",
+    "preview": "High Fashion.jpg",
+    "prompt": "High Fashion, {prompt}, dynamic, dramatic, haute couture, elegant, ornate clothing, High Fashion",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

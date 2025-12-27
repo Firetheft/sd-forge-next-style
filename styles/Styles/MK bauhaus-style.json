@@ -1,0 +1,7 @@
+{
+    "name": "MK bauhaus-style",
+    "description": "MK\u2022\u5305\u8c6a\u65af\u98ce\u683c",
+    "preview": "MK bauhaus-style.jpg",
+    "prompt": "Bauhaus-inspired {prompt}. minimalism, geometric precision, primary colors, sans-serif typography, asymmetry, functional design",
+    "negative": "ornate, intricate, excessive detail, complex patterns, serif typography"
+}

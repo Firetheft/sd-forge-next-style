@@ -1,0 +1,7 @@
+{
+    "name": "misc-stained glass",
+    "description": "\u6742\u9879\u2022\u5f69\u8272\u73bb\u7483\u98ce\u683c",
+    "preview": "misc-stained glass.jpg",
+    "prompt": "stained glass style {prompt}, vibrant, beautiful, translucent, intricate, detailed",
+    "negative": "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic"
+}

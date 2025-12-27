@@ -1,0 +1,6 @@
+google-generativeai
+colornamer==0.2.3
+webcolors==1.13
+palettable
+zhipuai
+qwen-vl-utils

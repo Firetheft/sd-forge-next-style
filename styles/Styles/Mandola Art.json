@@ -1,0 +1,7 @@
+{
+    "name": "Mandola Art",
+    "description": "\u66fc\u591a\u62c9\u827a\u672f",
+    "preview": "Mandola Art.jpg",
+    "prompt": "Mandola art style, {prompt}, complex, circular design, mandola",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

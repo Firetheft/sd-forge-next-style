@@ -1,0 +1,7 @@
+{
+    "name": "Macro Photography",
+    "description": "\u5fae\u8ddd\u6444\u5f71",
+    "preview": "Macro Photography.jpg",
+    "prompt": "Macro Photography, {prompt}, close-up, macro 100mm, macro photography",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "artstyle-abstract",
+    "description": "\u827a\u672f\u98ce\u683c\u2022\u62bd\u8c61",
+    "preview": "artstyle-abstract.jpg",
+    "prompt": "abstract style {prompt}, non-representational, colors and shapes, expression of feelings, imaginative, highly detailed",
+    "negative": "realistic, photographic, figurative, concrete"
+}

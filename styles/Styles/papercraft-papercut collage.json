@@ -1,0 +1,7 @@
+{
+    "name": "papercraft-papercut collage",
+    "description": "\u7eb8\u827a\u2022\u526a\u7eb8\u62fc\u8d34",
+    "preview": "papercraft-papercut collage.jpg",
+    "prompt": "papercut collage of {prompt}, mixed media, textured paper, overlapping, asymmetrical, abstract, vibrant",
+    "negative": "photo, 3D, realistic, drawing, painting, high detail, disfigured"
+}

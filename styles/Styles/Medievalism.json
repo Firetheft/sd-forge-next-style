@@ -1,0 +1,7 @@
+{
+    "name": "Medievalism",
+    "description": "\u4e2d\u4e16\u7eaa\u4e3b\u4e49",
+    "preview": "Medievalism.jpg",
+    "prompt": "Medievalism, {prompt}, inspired by The Middle Ages, medieval art, elaborate patterns and decoration, Medievalism",
+    "negative": "ugly, deformed, noisy, blurry, low contrast"
+}

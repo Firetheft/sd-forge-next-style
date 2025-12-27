@@ -1,0 +1,7 @@
+{
+    "name": "sai-digital art",
+    "description": "SAI\u2022\u6570\u5b57\u827a\u672f",
+    "preview": "sai-digital art.jpg",
+    "prompt": "concept art {prompt}, digital artwork, illustrative, painterly, matte painting, highly detailed",
+    "negative": "photo, photorealistic, realism, ugly"
+}

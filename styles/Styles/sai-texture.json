@@ -1,0 +1,7 @@
+{
+    "name": "sai-texture",
+    "description": "SAI\u2022\u7eb9\u7406",
+    "preview": "sai-texture.jpg",
+    "prompt": "texture {prompt} top down close-up",
+    "negative": "ugly, deformed, noisy, blurry"
+}

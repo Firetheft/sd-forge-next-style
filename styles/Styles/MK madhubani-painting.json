@@ -1,0 +1,7 @@
+{
+    "name": "MK madhubani-painting",
+    "description": "MK\u2022\u9a6c\u675c\u5df4\u5c3c\u7ed8\u753b",
+    "preview": "MK madhubani-painting.jpg",
+    "prompt": "Madhubani painting {prompt}. intricate patterns, vibrant colors, nature-inspired motifs, cultural storytelling, symmetry, folk art aesthetics",
+    "negative": "abstract, muted colors, minimalistic design, modern aesthetics"
+}
