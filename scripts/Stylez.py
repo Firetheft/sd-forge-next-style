@@ -316,6 +316,9 @@ def generate_caption_fn(
             unload_qwen_model()
 
     elif model_name == "GeminiAPI":
+        config = get_extension_config()
+        if not config.get("GEMINI_API_KEY"):
+            return "MISSING_KEY_GEMINI", f"<p>MISSING_KEY_GEMINI </p>", ""
         configure_gemini()
         model = genai.GenerativeModel("gemini-2.5-flash")
         
@@ -330,6 +333,9 @@ def generate_caption_fn(
         os.remove(temp_image_path)
 
     elif model_name == "ZhipuAPI":
+        config = get_extension_config()
+        if not config.get("ZHIPUAI_API_KEY"):
+            return "MISSING_KEY_ZHIPU", f"<p>MISSING_KEY_ZHIPU </p>", ""
         client = ZhipuAI(api_key=ZHIPUAI_API_KEY)
         temp_image_path = "temp_image.jpg"
         image.save(temp_image_path)
@@ -481,9 +487,10 @@ def save_extension_config_func(key, value):
         if key == "ZHIPUAI_API_KEY": ZHIPUAI_API_KEY = value
         if key == "PROXY": PROXY = value
         
-        return f"CONFIG_SAVED_{random.randint(0, 100000)}", "<p style='color:green;'>API Key saved successfully. Please try generating again.</p>"
+        success_msg = "<p style='color:green;'>API Key saved successfully. Please try generating again.</p>"
+        return f"CONFIG_SAVED_{random.randint(0, 100000)}", success_msg, success_msg
     except Exception as e:
-        return f"Error saving config: {e}", gr.update()
+        return f"Error saving config: {e}", gr.update(), gr.update()
 
 def get_model_target_dir(m_type):
     opts = shared.cmd_opts
@@ -1211,7 +1218,7 @@ You are an expert erotica writer and prompt engineer for adult content. Your tas
     elif model_selection == "ZhipuAPI":
         zhipu_key = current_config.get("ZHIPUAI_API_KEY", "")
         if not zhipu_key:
-            return "MISSING_KEY_ZHIPU", ""
+            return f"MISSING_KEY_ZHIPU ", ""
             
         client = ZhipuAI(api_key=zhipu_key)
         response = client.chat.completions.create(
@@ -1223,7 +1230,7 @@ You are an expert erotica writer and prompt engineer for adult content. Your tas
     elif model_selection == "GeminiAPI":
         gemini_key = current_config.get("GEMINI_API_KEY", "")
         if not gemini_key:
-            return "MISSING_KEY_GEMINI", ""
+            return f"MISSING_KEY_GEMINI ", ""
 
         configure_gemini()
         model = genai.GenerativeModel("gemini-2.5-flash")
@@ -1581,7 +1588,7 @@ def add_tab():
                         with gr.Row():
                             prompt_model_selector = gr.Dropdown(
                                 label="Model:",
-                                choices=["Local-Qwen", "ZhipuAPI", "GeminiAPI"],
+                                choices=["Local-Qwen", "GeminiAPI", "ZhipuAPI"],
                                 value="Local-Qwen",
                                 elem_id="prompt_model_selector"
                             )
@@ -2051,6 +2058,7 @@ def add_tab():
             method(fn=None, _js=refresh_js, inputs=dummy_inputs)
         
         prompt_output_html.change(fn=None, _js="checkPromptGenError", inputs=[prompt_output_html])
+        img2prompt_html_tags.change(fn=None, _js="checkPromptGenError", inputs=[img2prompt_html_tags])
 
         global_config_key = gr.Textbox(visible=False, elem_id="global_config_key_input")
         global_config_value = gr.Textbox(visible=False, elem_id="global_config_value_input")
@@ -2059,7 +2067,7 @@ def add_tab():
         global_config_save_btn.click(
             fn=save_extension_config_func,
             inputs=[global_config_key, global_config_value],
-            outputs=[cm_download_log, prompt_output_html]
+            outputs=[cm_download_log, prompt_output_html, img2prompt_html_tags]
         )
     return [(ui, "stylez_menutab", "stylez_menutab")]
 

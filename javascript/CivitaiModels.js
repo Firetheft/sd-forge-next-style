@@ -233,7 +233,7 @@ function handleConfigSaveLog(logText) {
 
     if (logText === "MISSING_KEY_CIVITAI") {
         showConfigModal("CIVITAI_API_KEY", "Civitai API Key", "Downloading this model requires API Key。");
-    } else if (logText === "CONFIG_SAVED") {
+    } else if (logText.startsWith("CONFIG_SAVED")) {
         alert("Configuration saved!");
         closeConfigModal();
         if (lastDownloadInfo) triggerCivitaiDownload(lastDownloadInfo);
@@ -248,7 +248,12 @@ function handleConfigSaveLog(logText) {
     }
 }
 
+let lastPromptErrorContent = "";
+
 function checkPromptGenError(htmlContent) {
+    if (htmlContent === lastPromptErrorContent) return;
+    lastPromptErrorContent = htmlContent;
+
     if (htmlContent.includes("MISSING_KEY_GEMINI")) {
         lastDownloadInfo = null;
         showConfigModal("GEMINI_API_KEY", "Gemini API Key", "Using Gemini to expand prompt words requires an API Key.");
@@ -268,7 +273,7 @@ function showConfigModal(configKey, title, desc) {
                     <p id="stylez-modal-desc" style="font-size:12px; color:var(--body-text-color-subdued); margin-bottom:10px;"></p>
                     <input type="text" id="stylez-modal-input" placeholder="paste here Key..." style="width:100%; padding:8px; margin-bottom:15px; background:var(--input-background-fill); color:var(--body-text-color); border:1px solid var(--input-border-color); border-radius:4px;">
                     <div style="display:flex; justify-content:flex-end; gap:10px;">
-                        <button onclick="closeConfigModal()" style="padding:5px 15px; cursor:pointer; background:var(--button-secondary-background-fill); color:var(--button-secondary-text-color); border:none; border-radius:4px;">Cancel</button>
+                        <button id="stylez-modal-cancel-btn" style="padding:5px 15px; cursor:pointer; background:var(--button-secondary-background-fill); color:var(--button-secondary-text-color); border:none; border-radius:4px;">Cancel</button>
                         <button id="stylez-modal-save-btn" style="padding:5px 15px; cursor:pointer; background:var(--button-primary-background-fill); color:var(--button-primary-text-color); border:none; border-radius:4px;">Save</button>
                     </div>
                 </div>
@@ -302,6 +307,11 @@ function showConfigModal(configKey, title, desc) {
             if(btn) btn.click();
         }
     };
+
+    const cancelBtn = document.getElementById('stylez-modal-cancel-btn');
+    if (cancelBtn) {
+        cancelBtn.onclick = closeConfigModal;
+    }
 
     modal.style.display = 'flex';
 }
