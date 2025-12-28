@@ -763,6 +763,7 @@ if not os.path.exists(config_json):
     default_config = {
         "GEMINI_API_KEY": "",
         "ZHIPUAI_API_KEY": "",
+        "CIVITAI_API_KEY": "",
         "PROXY": "",
         "card_size": 146,
         "card_size_min": 50,
@@ -778,6 +779,7 @@ with open(config_json, "r") as json_file:
     data = json.load(json_file)
     GEMINI_API_KEY = data.get("GEMINI_API_KEY", "")
     ZHIPUAI_API_KEY = data.get("ZHIPUAI_API_KEY", "")
+    CIVITAI_API_KEY = data.get("CIVITAI_API_KEY", "")
     PROXY = data.get("PROXY", "")
     card_size_value = data.get("card_size", 146)
     card_size_min = data.get("card_size_min", 50)
