@@ -911,5 +911,3 @@ function updateStylezTheme(accent, minor) {
         }
     });
 }
-
-processElements();

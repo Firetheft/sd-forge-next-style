@@ -938,7 +938,7 @@ def generate_html_code():
                                 color = "#ffffff"
                             style_html += f"""
                             <div class="style_card" data-category='{subfolder_name}' data-title='{titlelower}' style="min-height:{card_size_value}px;max-height:{card_size_value}px;min-width:{card_size_value}px;max-width:{card_size_value}px;">
-                                <div class="style_card_checkbox" onclick="toggleCardSelection(event, '{subfolder_name}','{encoded_filename}')">◉</div>  <img class="styles_thumbnail" src="{"file=" + img +"?timestamp"+ formatted_time}" alt="{title} Preview">
+                                <div class="style_card_checkbox" onclick="toggleCardSelection(event, '{subfolder_name}','{encoded_filename}')">◉</div>  <img class="styles_thumbnail" src="{"file=" + img}" alt="{title} Preview" loading="lazy">
                                 <div class="EditStyleJson">
                                     <button onclick="editStyle(`{title}`,`{imghack}`,`{description}`,`{prompt}`,`{prompt_negative}`,`{steps}`,`{cfg_scale}`,`{seed}`,`{size}`,`{sampling}`,`{scheduler}`,`{subfolder_name}`,`{encoded_filename}`,`Stylez`)">🖉</button>
                                 </div>
