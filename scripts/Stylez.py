@@ -281,9 +281,9 @@ VISUAL_SYSTEM_PROMPTS = {
 }
 
 img2prompt_models = [
-    "huihui-ai/Huihui-Qwen3-VL-2B-Instruct-abliterated",
-    "gemini-2.5-flash",
-    "glm-4v-flash",
+    "Local-Qwen",
+    "GeminiAPI",
+    "ZhipuAPI",
 ]
 
 img2prompt_types = list(VISUAL_SYSTEM_PROMPTS.keys())
@@ -303,7 +303,7 @@ def generate_caption_fn(
     
     instruction_text = VISUAL_SYSTEM_PROMPTS.get(prompt_type, "Describe this image in detail.")
     
-    if model_name == "huihui-ai/Huihui-Qwen3-VL-2B-Instruct-abliterated":
+    if model_name == "Local-Qwen":
         result = run_qwen_inference(
             text=instruction_text,
             image=image,
@@ -315,9 +315,9 @@ def generate_caption_fn(
         if unload_after_gen:
             unload_qwen_model()
 
-    elif model_name == "gemini-2.5-flash":
+    elif model_name == "GeminiAPI":
         configure_gemini()
-        model = genai.GenerativeModel(model_name)
+        model = genai.GenerativeModel("gemini-2.5-flash")
         
         temp_image_path = "temp_image.jpg"
         image.save(temp_image_path)
@@ -329,7 +329,7 @@ def generate_caption_fn(
         result = re.sub(r'^\s*\d+[\.\)]?\s*', '', result, flags=re.MULTILINE).strip()
         os.remove(temp_image_path)
 
-    elif model_name == "glm-4v-flash":
+    elif model_name == "ZhipuAPI":
         client = ZhipuAI(api_key=ZHIPUAI_API_KEY)
         temp_image_path = "temp_image.jpg"
         image.save(temp_image_path)
@@ -337,7 +337,7 @@ def generate_caption_fn(
             base64_image = base64.b64encode(image_file.read()).decode('utf-8')
 
         response = client.chat.completions.create(
-            model="glm-4v-flash",
+            model="GLM-4.6V-Flash",
             messages=[
                 {
                     "role": "user",
@@ -1213,7 +1213,7 @@ You are an expert erotica writer and prompt engineer for adult content. Your tas
             
         client = ZhipuAI(api_key=zhipu_key)
         response = client.chat.completions.create(
-            model="GLM-4.5-Flash",
+            model="GLM-4.6V-Flash",
             messages=[{"role": "system", "content": "You are a helpful creative assistant."}, {"role": "user", "content": final_prompt}],
         )
         generated_prompt = response.choices[0].message.content
@@ -1668,7 +1668,7 @@ def add_tab():
                         img2prompt_model_name = gr.Dropdown(
                             label="Model:",
                             choices=img2prompt_models,
-                            value="huihui-ai/Huihui-Qwen3-VL-2B-Instruct-abliterated",
+                            value="Local-Qwen",
                         )
                         img2prompt_type = gr.Dropdown(
                             label="Prompt Types:",
