@@ -83,3 +83,7 @@ Dependencies: If you encounter a qwen-vl-utils missing error, please manually ru
 ## 🤝 Contribution
 
 Issues and Pull Requests are welcome to improve this project!
+
+## 🙏 Acknowledgements
+
+This project references and is inspired by [Stylez](https://github.com/javsezlol1/Stylez). Special thanks to the original author for their excellent work and contribution to the community.
