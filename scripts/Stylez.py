@@ -599,8 +599,6 @@ def get_civitai_models_func(json_data):
         return json.dumps({"items": [], "metadata": {}, "error": "Invalid JSON"})
 
     config = get_extension_config()
-    proxy_url = config.get("PROXY", "")
-    proxies = {"http": proxy_url, "https": proxy_url} if proxy_url else {}
     
     api_key = config.get("CIVITAI_API_KEY", "")
     headers = {"Content-Type": "application/json"}
@@ -627,7 +625,7 @@ def get_civitai_models_func(json_data):
         params["cursor"] = data.get("cursor")
 
     try:
-        response = requests.get(api_url, params=params, headers=headers, proxies=proxies, verify=False, timeout=30)
+        response = requests.get(api_url, params=params, headers=headers, verify=False, timeout=30)
         if response.status_code != 200:
             return json.dumps({"items": [], "metadata": {}, "error": f"API Error: {response.status_code}"})
         
@@ -666,8 +664,6 @@ def download_civitai_model_func(json_data):
         if not api_key:
             return "MISSING_KEY_CIVITAI"
 
-        proxy_url = config.get("PROXY", "")
-        proxies = {"http": proxy_url, "https": proxy_url} if proxy_url else {}
         headers = {"Authorization": f"Bearer {api_key}", "User-Agent": "Mozilla/5.0"}
 
         dest_dir = get_model_target_dir(m_type)
@@ -691,7 +687,7 @@ def download_civitai_model_func(json_data):
 
         def _dl():
             try:
-                with requests.get(url, stream=True, headers=headers, proxies=proxies, verify=False, allow_redirects=True, timeout=60) as r:
+                with requests.get(url, stream=True, headers=headers, verify=False, allow_redirects=True, timeout=60) as r:
                     if r.status_code == 401: 
                         download_tasks[task_id]["status"] = "error"
                         download_tasks[task_id]["msg"] = "401 Unauthorized"
@@ -717,7 +713,7 @@ def download_civitai_model_func(json_data):
                         
                         print(f"[Stylez] Downloading preview content: {image_url}")
                         
-                        with requests.get(image_url, stream=True, headers=headers, proxies=proxies, verify=False, timeout=30) as r_img:
+                        with requests.get(image_url, stream=True, headers=headers, verify=False, timeout=30) as r_img:
                             if r_img.status_code == 200:
                                 import mimetypes
                                 root, ext = os.path.splitext(image_url)

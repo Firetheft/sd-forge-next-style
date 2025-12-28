@@ -70,7 +70,6 @@ You can also manually edit the configuration file located at `extensions/sd-forg
     "GEMINI_API_KEY": "Your_Gemini_API_Key",
     "ZHIPUAI_API_KEY": "Your_Zhipu_API_Key",
     "CIVITAI_API_KEY": "Your_CivitAI_API_Key",
-    "PROXY": "Your_Proxy_Address(Optional)"
 }
 ```
 
